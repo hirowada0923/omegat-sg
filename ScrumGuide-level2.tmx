@@ -1,0 +1,2290 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE tmx SYSTEM "tmx14.dtd">
+<tmx version="1.4">
+  <header creationtool="OmegaT" o-tmf="OmegaT TMX" adminlang="EN-US" datatype="plaintext" creationtoolversion="5.3.0_0_2fd7a9ecc" segtype="sentence" srclang="en-US"/>
+  <body>
+<!-- Default translations -->
+    <tu>
+      <tuv xml:lang="en-US">
+        <seg>A Product Owner orders the work for a complex problem into a Product Backlog.</seg>
+      </tuv>
+      <tuv xml:lang="ja" changeid="hiro" changedate="20201211T204935Z" creationid="hiro" creationdate="20201211T204935Z">
+        <seg>プロダクトオーナーは、複雑な問題に対応するための作業をプロダクトバックログに並べる。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-US">
+        <seg>A Scrum Team is expected to adapt the moment it learns anything new through inspection.</seg>
+      </tuv>
+      <tuv xml:lang="ja" changeid="hiro" changedate="20201211T210323Z" creationid="hiro" creationdate="20201211T210323Z">
+        <seg>スクラムチームは検査によって新しいことを学んだ瞬間に適応することが期待されている。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-US">
+        <seg>A Sprint could be cancelled if the Sprint Goal becomes obsolete.</seg>
+      </tuv>
+      <tuv xml:lang="ja" changeid="hiro" changedate="20201212T024435Z" creationid="hiro" creationdate="20201212T024435Z">
+        <seg>スプリントゴールがもはや役に⽴たなくなった場合、スプリントは中⽌されることになるだろう。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-US">
+        <seg>A new Sprint starts immediately after the conclusion of the previous Sprint.</seg>
+      </tuv>
+      <tuv xml:lang="ja" changeid="hiro" changedate="20201212T024013Z" creationid="hiro" creationdate="20201212T024013Z">
+        <seg>前のスプリントが終わり次第、新しいスプリントが始まる。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-US">
+        <seg>A product could be a service, a physical product, or something more abstract.</seg>
+      </tuv>
+      <tuv xml:lang="ja" changeid="hiro" changedate="20201212T032431Z" creationid="hiro" creationdate="20201212T032431Z">
+        <seg>プロダクトは、サービスや物理的な製品である場合もあれば、より抽象的なものの場合もある。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-US">
+        <seg>A product is a vehicle to deliver value.</seg>
+      </tuv>
+      <tuv xml:lang="ja" changeid="hiro" changedate="20201212T032408Z" creationid="hiro" creationdate="20201212T032408Z">
+        <seg>プロダクトとは価値を提供する⼿段である。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-US">
+        <seg>Acknowledgements</seg>
+      </tuv>
+      <tuv xml:lang="ja" changeid="hiro" changedate="20201211T202808Z" creationid="hiro" creationdate="20201211T202808Z">
+        <seg>謝辞</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-US">
+        <seg>Adaptation</seg>
+      </tuv>
+      <tuv xml:lang="ja" changeid="hiro" changedate="20201211T202427Z" creationid="hiro" creationdate="20201211T202427Z">
+        <seg>適応</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-US">
+        <seg>Adaptation becomes more difficult when the people involved are not empowered or self-managing.</seg>
+      </tuv>
+      <tuv xml:lang="ja" changeid="hiro" changedate="20201211T210310Z" creationid="hiro" creationdate="20201211T210310Z">
+        <seg>関係者に権限が与えられていないときや、⾃⼰管理されていないときは、適応が難しくなる。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-US">
+        <seg>Adapting their plan each day toward the Sprint Goal; and,</seg>
+      </tuv>
+      <tuv xml:lang="ja" changeid="hiro" changedate="20201211T212811Z" creationid="hiro" creationdate="20201211T212811Z">
+        <seg>スプリントゴールに向けて毎⽇計画を適応させる。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-US">
+        <seg>All the work necessary to achieve the Product Goal, including Sprint Planning, Daily Scrums, Sprint Review, and Sprint Retrospective, happen within Sprints.</seg>
+      </tuv>
+      <tuv xml:lang="ja" changeid="hiro" changedate="20201212T024035Z" creationid="hiro" creationdate="20201212T024035Z">
+        <seg>スプリントプランニング、デイリースクラム、スプリントレビュー、スプリントレトロスペクティブを含む、プロダクトゴールを達成するために必要なすべての作業は、スプリント内で⾏われる。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-US">
+        <seg>Although the Sprint Goal is a commitment by the Developers, it provides flexibility in terms of the exact work needed to achieve it.</seg>
+      </tuv>
+      <tuv xml:lang="ja" changeid="hiro" changedate="20201212T032646Z" creationid="hiro" creationdate="20201212T032646Z">
+        <seg>スプリントゴールは開発者が確約するものだが、スプリントゴールを達成するために必要となる作業に対しては柔軟性をもたらす。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-US">
+        <seg>An Increment is a concrete stepping stone toward the Product Goal.</seg>
+      </tuv>
+      <tuv xml:lang="ja" changeid="hiro" changedate="20201212T032807Z" creationid="hiro" creationdate="20201212T032807Z">
+        <seg>インクリメントは、プロダクトゴールに向けた具体的な踏み⽯である。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-US">
+        <seg>Artifacts that have low transparency can lead to decisions that diminish value and increase risk.</seg>
+      </tuv>
+      <tuv xml:lang="ja" changeid="hiro" changedate="20201211T205926Z" creationid="hiro" creationdate="20201211T205926Z">
+        <seg>透明性の低い作成物は、価値を低下させ、リスクを⾼める意思決定につながる可能性がある。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-US">
+        <seg>As Scrum is being used, patterns, processes, and insights that fit the Scrum framework as described in this document, may be found, applied and devised.</seg>
+      </tuv>
+      <tuv xml:lang="ja" changeid="hiro" changedate="20201211T204616Z" creationid="hiro" creationdate="20201211T204616Z">
+        <seg>スクラムを利⽤していると、本⽂書で説明しているスクラムフレームワークと適合するようなパターン、プロセス、インサイトを発⾒・適⽤・考案することもあるだろう。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-US">
+        <seg>As Scrum’s use spreads, developers, researchers, analysts, scientists, and other specialists do the work.</seg>
+      </tuv>
+      <tuv xml:lang="ja" changeid="hiro" changedate="20201211T204501Z" creationid="hiro" creationdate="20201211T204501Z">
+        <seg>スクラムが広まったことにより、開発者、研究者、アナリスト、科学者、その他の専⾨家もスクラムを利⽤するようになった。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-US">
+        <seg>As the Developers work during the Sprint, they keep the Sprint Goal in mind.</seg>
+      </tuv>
+      <tuv xml:lang="ja" changeid="hiro" changedate="20201212T032736Z" creationid="hiro" creationdate="20201212T032736Z">
+        <seg>開発者がスプリントで作業するときには、スプリントゴールを念頭に置く。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-US">
+        <seg>Assumptions that led them astray are identified and their origins explored.</seg>
+      </tuv>
+      <tuv xml:lang="ja" changeid="hiro" changedate="20201212T030108Z" creationid="hiro" creationdate="20201212T030108Z">
+        <seg>スクラムチームを迷わせた仮説があれば特定し、その真因を探求する。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-US">
+        <seg>Attributes often vary with the domain of work.</seg>
+      </tuv>
+      <tuv xml:lang="ja" changeid="hiro" changedate="20201212T032225Z" creationid="hiro" creationdate="20201212T032225Z">
+        <seg>多くの場合、属性は作業領域によって異なる。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-US">
+        <seg>Based on this information, attendees collaborate on what to do next.</seg>
+      </tuv>
+      <tuv xml:lang="ja" changeid="hiro" changedate="20201212T025853Z" creationid="hiro" creationdate="20201212T025853Z">
+        <seg>この情報に基づいて、参加者は次にやるべきことに協⼒して取り組む。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-US">
+        <seg>Causing the removal of impediments to the Scrum Team’s progress; and,</seg>
+      </tuv>
+      <tuv xml:lang="ja" changeid="hiro" changedate="20201212T023356Z" creationid="hiro" creationdate="20201212T023356Z">
+        <seg>スクラムチームの進捗を妨げる障害物を排除するように働きかける。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-US">
+        <seg>Changing the core design or ideas of Scrum, leaving out elements, or not following the rules of Scrum, covers up problems and limits the benefits of Scrum, potentially even rendering it useless.</seg>
+      </tuv>
+      <tuv xml:lang="ja" changeid="hiro" changedate="20201211T204052Z" creationid="hiro" creationdate="20201211T203308Z">
+        <seg>スクラムの核となるデザインやアイデアを変更したり、要素を省略したり、スクラムのルールに従わなかったりすると、問題が隠蔽され、スクラムの利点が制限される。場合によっては、スクラムが役に⽴たなくなることさえある。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-US">
+        <seg>Coaching the team members in self-management and cross-functionality;</seg>
+      </tuv>
+      <tuv xml:lang="ja" changeid="hiro" changedate="20201212T023324Z" creationid="hiro" creationdate="20201212T023324Z">
+        <seg>⾃⼰管理型で機能横断型のチームメンバーをコーチする。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-US">
+        <seg>Commitment, Focus, Openness, Respect, and Courage</seg>
+      </tuv>
+      <tuv xml:lang="ja" changeid="hiro" changedate="20201211T210405Z" creationid="hiro" creationdate="20201211T210405Z">
+        <seg>確約（Commitment）、集中（Focus）、公開（Openness）、尊敬（Respect）、勇気（Courage）</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-US">
+        <seg>Commitment: Definition of Done</seg>
+      </tuv>
+      <tuv xml:lang="ja" changeid="hiro" changedate="20201212T033055Z" creationid="hiro" creationdate="20201212T033055Z">
+        <seg>確約（コミットメント）：完成の定義</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-US">
+        <seg>Commitment: Product Goal</seg>
+      </tuv>
+      <tuv xml:lang="ja" changeid="hiro" changedate="20201212T032308Z" creationid="hiro" creationdate="20201212T032308Z">
+        <seg>確約（コミットメント）：プロダクトゴール</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-US">
+        <seg>Commitment: Sprint Goal</seg>
+      </tuv>
+      <tuv xml:lang="ja" changeid="hiro" changedate="20201212T032621Z" creationid="hiro" creationdate="20201212T032621Z">
+        <seg>確約（コミットメント）：スプリントゴール</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-US">
+        <seg>Consequently, the Sprint Backlog is updated throughout the Sprint as more is learned.</seg>
+      </tuv>
+      <tuv xml:lang="ja" changeid="hiro" changedate="20201212T032600Z" creationid="hiro" creationdate="20201212T032600Z">
+        <seg>その結果、より多くのことを学ぶにつれて、スプリントの期間を通して更新される。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-US">
+        <seg>Creating a plan for the Sprint, the Sprint Backlog;</seg>
+      </tuv>
+      <tuv xml:lang="ja" changeid="hiro" changedate="20201211T212741Z" creationid="hiro" creationdate="20201211T212741Z">
+        <seg>スプリントの計画（スプリントバックログ）を作成する。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-US">
+        <seg>Creating and clearly communicating Product Backlog items;</seg>
+      </tuv>
+      <tuv xml:lang="ja" changeid="hiro" changedate="20201211T213002Z" creationid="hiro" creationdate="20201211T213002Z">
+        <seg>プロダクトバックログアイテムを作成し、明確に伝える。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-US">
+        <seg>Daily Scrum</seg>
+      </tuv>
+      <tuv xml:lang="ja" changeid="hiro" changedate="20201211T202559Z" creationid="hiro" creationdate="20201211T202559Z">
+        <seg>デイリースクラム</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-US">
+        <seg>Daily Scrums improve communications, identify impediments, promote quick decision-making, and consequently eliminate the need for other meetings.</seg>
+      </tuv>
+      <tuv xml:lang="ja" changeid="hiro" changedate="20201212T025709Z" creationid="hiro" creationdate="20201212T025709Z">
+        <seg>デイリースクラムは、コミュニケーションを改善し、障害物を特定し、迅速な意思決定を促進する。その結果、他の会議を不要にする。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-US">
+        <seg>Developers</seg>
+      </tuv>
+      <tuv xml:lang="ja" changeid="hiro" changedate="20201211T202458Z" creationid="hiro" creationdate="20201211T202458Z">
+        <seg>開発者</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-US">
+        <seg>Developers are the people in the Scrum Team that are committed to creating any aspect of a usable Increment each Sprint.</seg>
+      </tuv>
+      <tuv xml:lang="ja" changeid="hiro" changedate="20201211T212650Z" creationid="hiro" creationdate="20201211T212650Z">
+        <seg>開発者はスクラムチームの⼀員である。各スプリントにおいて、利⽤可能なインクリメントのあらゆる側⾯を作成することを確約する。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-US">
+        <seg>Developing and explicitly communicating the Product Goal;</seg>
+      </tuv>
+      <tuv xml:lang="ja" changeid="hiro" changedate="20201211T212951Z" creationid="hiro" creationdate="20201211T212951Z">
+        <seg>プロダクトゴールを策定し、明⽰的に伝える。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-US">
+        <seg>During the Sprint:</seg>
+      </tuv>
+      <tuv xml:lang="ja" changeid="hiro" changedate="20201212T024051Z" creationid="hiro" creationdate="20201212T024051Z">
+        <seg>スプリントでは、</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-US">
+        <seg>During the event, the Scrum Team and stakeholders review what was accomplished in the Sprint and what has changed in their environment.</seg>
+      </tuv>
+      <tuv xml:lang="ja" changeid="hiro" changedate="20201212T025839Z" creationid="hiro" creationdate="20201212T025839Z">
+        <seg>スプリントレビューにおいて、スクラムチームとステークホルダーは、スプリントで何が達成され、⾃分たちの環境で何が変化したかについてレビューする。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-US">
+        <seg>Each Increment is additive to all prior Increments and thoroughly verified, ensuring that all Increments work together.</seg>
+      </tuv>
+      <tuv xml:lang="ja" changeid="hiro" changedate="20201212T032903Z" creationid="hiro" creationdate="20201212T032903Z">
+        <seg>インクリメントはこれまでのすべてのインクリメントに追加する。また、すべてのインクリメントが連携して機能することを保証するために、徹底的に検証する必要がある。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-US">
+        <seg>Each Sprint may be considered a short project.</seg>
+      </tuv>
+      <tuv xml:lang="ja" changeid="hiro" changedate="20201212T024305Z" creationid="hiro" creationdate="20201212T024305Z">
+        <seg>スプリントは短いプロジェクトと考えることもできる。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-US">
+        <seg>Each artifact contains a commitment to ensure it provides information that enhances transparency and focus against which progress can be measured:</seg>
+      </tuv>
+      <tuv xml:lang="ja" changeid="hiro" changedate="20201212T030426Z" creationid="hiro" creationdate="20201212T030426Z">
+        <seg>各作成物には、透明性と集中を⾼める情報を提供する「確約（コミットメント）」が含まれている。これにより進捗を測定できる。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-US">
+        <seg>Each element of the framework serves a specific purpose that is essential to the overall value and results realized with Scrum.</seg>
+      </tuv>
+      <tuv xml:lang="ja" changeid="hiro" changedate="20201211T203240Z" creationid="hiro" creationdate="20201211T203240Z">
+        <seg>フレームワークの各要素には特定の⽬的があり、スクラムで実現される全体的な価値や結果に⽋かせないものとなっている。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-US">
+        <seg>Each event in Scrum is a formal opportunity to inspect and adapt Scrum artifacts.</seg>
+      </tuv>
+      <tuv xml:lang="ja" changeid="hiro" changedate="20201212T023750Z" creationid="hiro" creationdate="20201212T023750Z">
+        <seg>スクラムにおけるそれぞれのイベントは、スクラムの作成物の検査と適応をするための公式の機会である。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-US">
+        <seg>Empiricism asserts that knowledge comes from experience and making decisions based on what is observed.</seg>
+      </tuv>
+      <tuv xml:lang="ja" changeid="hiro" changedate="20201211T205525Z" creationid="hiro" creationdate="20201211T205525Z">
+        <seg>経験主義では、知識は経験から⽣まれ、意思決定は観察に基づく。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-US">
+        <seg>End Note</seg>
+      </tuv>
+      <tuv xml:lang="ja" changeid="hiro" changedate="20201211T202753Z" creationid="hiro" creationdate="20201211T202753Z">
+        <seg>最後に</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-US">
+        <seg>Ensuring that all Scrum events take place and are positive, productive, and kept within the timebox.</seg>
+      </tuv>
+      <tuv xml:lang="ja" changeid="hiro" changedate="20201212T023420Z" creationid="hiro" creationdate="20201212T023420Z">
+        <seg>すべてのスクラムイベントが開催され、ポジティブで⽣産的であり、タイムボックスの制限が守られるようにする。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-US">
+        <seg>Ensuring that the Product Backlog is transparent, visible and understood.</seg>
+      </tuv>
+      <tuv xml:lang="ja" changeid="hiro" changedate="20201211T213031Z" creationid="hiro" creationdate="20201211T213031Z">
+        <seg>プロダクトバックログに透明性があり、⾒える化され、理解されるようにする。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-US">
+        <seg>Events are used in Scrum to create regularity and to minimize the need for meetings not defined in Scrum.</seg>
+      </tuv>
+      <tuv xml:lang="ja" changeid="hiro" changedate="20201212T023905Z" creationid="hiro" creationdate="20201212T023905Z">
+        <seg>スクラムにおけるイベントは、規則性を⽣み、スクラムで定義されていない会議の必要性を最⼩限に抑えるために⽤いられる。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-US">
+        <seg>Facilitating stakeholder collaboration as requested or needed.</seg>
+      </tuv>
+      <tuv xml:lang="ja" changeid="hiro" changedate="20201212T023603Z" creationid="hiro" creationdate="20201212T023603Z">
+        <seg>必要に応じてステークホルダーとのコラボレーションを促進する。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-US">
+        <seg>Failure to operate any events as prescribed results in lost opportunities to inspect and adapt.</seg>
+      </tuv>
+      <tuv xml:lang="ja" changeid="hiro" changedate="20201212T023849Z" creationid="hiro" creationdate="20201212T023849Z">
+        <seg>規定通りにイベントを運⽤しなければ、検査と適応の機会が失われる。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-US">
+        <seg>For Product Owners to succeed, the entire organization must respect their decisions.</seg>
+      </tuv>
+      <tuv xml:lang="ja" changeid="hiro" changedate="20201211T213125Z" creationid="hiro" creationdate="20201211T213125Z">
+        <seg>プロダクトオーナーをうまく機能させるには、組織全体でプロダクトオーナーの決定を尊重しなければならない。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-US">
+        <seg>For each selected Product Backlog item, the Developers plan the work necessary to create an Increment that meets the Definition of Done.</seg>
+      </tuv>
+      <tuv xml:lang="ja" changeid="hiro" changedate="20201212T025327Z" creationid="hiro" creationdate="20201212T025327Z">
+        <seg>開発者は、選択したプロダクトバックログアイテムごとに、完成の定義を満たすインクリメントを作成するために必要な作業を計画する。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-US">
+        <seg>For shorter Sprints, the event is usually shorter.</seg>
+      </tuv>
+      <tuv xml:lang="ja" changeid="hiro" changedate="20201212T025457Z" creationid="hiro" creationdate="20201212T025457Z">
+        <seg>スプリントの期間が短ければ、スプリントプランニングの時間も短くすることが多い。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-US">
+        <seg>For the Increment it is the Definition of Done.</seg>
+      </tuv>
+      <tuv xml:lang="ja" changeid="hiro" changedate="20201212T030502Z" creationid="hiro" creationdate="20201212T030502Z">
+        <seg>インクリメントのための完成の定義</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-US">
+        <seg>For the Product Backlog it is the Product Goal.</seg>
+      </tuv>
+      <tuv xml:lang="ja" changeid="hiro" changedate="20201212T030441Z" creationid="hiro" creationdate="20201212T030441Z">
+        <seg>プロダクトバックログのためのプロダクトゴール</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-US">
+        <seg>For the Sprint Backlog it is the Sprint Goal.</seg>
+      </tuv>
+      <tuv xml:lang="ja" changeid="hiro" changedate="20201212T030451Z" creationid="hiro" creationdate="20201212T030451Z">
+        <seg>スプリントバックログのためのスプリントゴール</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-US">
+        <seg>Helping employees and stakeholders understand and enact an empirical approach for complex work; and,</seg>
+      </tuv>
+      <tuv xml:lang="ja" changeid="hiro" changedate="20201212T023658Z" creationid="hiro" creationdate="20201212T023658Z">
+        <seg>複雑な作業に対する経験的アプローチを社員やステークホルダーに理解・実施してもらう。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-US">
+        <seg>Helping establish empirical product planning for a complex environment; and,</seg>
+      </tuv>
+      <tuv xml:lang="ja" changeid="hiro" changedate="20201212T023548Z" creationid="hiro" creationdate="20201212T023548Z">
+        <seg>複雑な環境での経験的なプロダクト計画の策定を⽀援する。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-US">
+        <seg>Helping find techniques for effective Product Goal definition and Product Backlog management;</seg>
+      </tuv>
+      <tuv xml:lang="ja" changeid="hiro" changedate="20201212T023516Z" creationid="hiro" creationdate="20201212T023516Z">
+        <seg>効果的なプロダクトゴールの定義とプロダクトバックログ管理の⽅法を探すことを⽀援する。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-US">
+        <seg>Helping the Scrum Team focus on creating high-value Increments that meet the Definition of Done;</seg>
+      </tuv>
+      <tuv xml:lang="ja" changeid="hiro" changedate="20201212T023343Z" creationid="hiro" creationdate="20201212T023343Z">
+        <seg>スクラムチームが完成の定義を満たす価値の⾼いインクリメントの作成に集中できるよう⽀援する。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-US">
+        <seg>Helping the Scrum Team understand the need for clear and concise Product Backlog items;</seg>
+      </tuv>
+      <tuv xml:lang="ja" changeid="hiro" changedate="20201212T023534Z" creationid="hiro" creationdate="20201212T023534Z">
+        <seg>明確で簡潔なプロダクトバックログアイテムの必要性についてスクラムチームに理解してもらう。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-US">
+        <seg>Holding each other accountable as professionals.</seg>
+      </tuv>
+      <tuv xml:lang="ja" changeid="hiro" changedate="20201211T212824Z" creationid="hiro" creationdate="20201211T212824Z">
+        <seg>専⾨家としてお互いに責任を持つ。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-US">
+        <seg>How this is done is at the sole discretion of the Developers.</seg>
+      </tuv>
+      <tuv xml:lang="ja" changeid="hiro" changedate="20201212T025357Z" creationid="hiro" creationdate="20201212T025357Z">
+        <seg>これをどのように⾏うかは、開発者だけの裁量とする。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-US">
+        <seg>How this is done may vary widely across organizations, Scrum Teams, and individuals.</seg>
+      </tuv>
+      <tuv xml:lang="ja" changeid="hiro" changedate="20201211T212910Z" creationid="hiro" creationdate="20201211T212910Z">
+        <seg>組織・スクラムチーム・個⼈によって、その⽅法はさまざまである。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-US">
+        <seg>However, an Increment may be delivered to stakeholders prior to the end of the Sprint.</seg>
+      </tuv>
+      <tuv xml:lang="ja" changeid="hiro" changedate="20201212T033020Z" creationid="hiro" creationdate="20201212T033020Z">
+        <seg>ただし、スプリント終了前にインクリメントをステークホルダーにデリバリーする可能性もある。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-US">
+        <seg>However, the Developers are always accountable for:</seg>
+      </tuv>
+      <tuv xml:lang="ja" changeid="hiro" changedate="20201211T212723Z" creationid="hiro" creationdate="20201211T212723Z">
+        <seg>ただし、開発者は常に次の結果に責任を持つ。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-US">
+        <seg>However, the more the Developers know about their past performance, their upcoming capacity, and their Definition of Done, the more confident they will be in their Sprint forecasts.</seg>
+      </tuv>
+      <tuv xml:lang="ja" changeid="hiro" changedate="20201212T025254Z" creationid="hiro" creationdate="20201212T025254Z">
+        <seg>しかしながら、開発者が過去の⾃分たちのパフォーマンス、今回のキャパシティ、および完成の定義の理解を深めていけば、スプリントの予測に⾃信が持てるようになる。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-US">
+        <seg>If Scrum Teams become too large, they should consider reorganizing into multiple cohesive Scrum Teams, each focused on the same product.</seg>
+      </tuv>
+      <tuv xml:lang="ja" changeid="hiro" changedate="20201211T212410Z" creationid="hiro" creationdate="20201211T212410Z">
+        <seg>スクラムチームが⼤きくなりすぎる場合は、同じプロダクトに専念した、複数のまとまりのあるスクラムチームに再編成することを検討する必要がある。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-US">
+        <seg>If a Product Backlog item does not meet the Definition of Done, it cannot be released or even presented at the Sprint Review.</seg>
+      </tuv>
+      <tuv xml:lang="ja" changeid="hiro" changedate="20201212T033215Z" creationid="hiro" creationdate="20201212T033215Z">
+        <seg>プロダクトバックログアイテムが完成の定義を満たしていない場合、リリースすることはできない。ましてやスプリントレビューで提⽰することもできない。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-US">
+        <seg>If any aspects of a process deviate outside acceptable limits or if the resulting product is unacceptable, the process being applied or the materials being produced must be adjusted.</seg>
+      </tuv>
+      <tuv xml:lang="ja" changeid="hiro" changedate="20201211T210231Z" creationid="hiro" creationdate="20201211T210231Z">
+        <seg>プロセスのいずれかの側⾯が許容範囲を逸脱していたり、成果となるプロダクトが受け⼊れられなかったりしたときは、適⽤しているプロセスや製造している構成要素を調整する必要がある。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-US">
+        <seg>If it is not an organizational standard, the Scrum Team must create a Definition of Done appropriate for the product.</seg>
+      </tuv>
+      <tuv xml:lang="ja" changeid="hiro" changedate="20201212T033253Z" creationid="hiro" creationdate="20201212T033253Z">
+        <seg>組織の標準になっていない場合、そのスクラムチームはプロダクトに適した完成の定義を作成する必要がある。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-US">
+        <seg>If the Definition of Done for an increment is part of the standards of the organization, all Scrum Teams must follow it as a minimum.</seg>
+      </tuv>
+      <tuv xml:lang="ja" changeid="hiro" changedate="20201212T033242Z" creationid="hiro" creationdate="20201212T033242Z">
+        <seg>インクリメントの完成の定義が組織の標準の⼀部となっている場合、すべてのスクラムチームは最低限それに従う必要がある。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-US">
+        <seg>If the Product Owner or Scrum Master are actively working on items in the Sprint Backlog, they participate as Developers.</seg>
+      </tuv>
+      <tuv xml:lang="ja" changeid="hiro" changedate="20201212T025611Z" creationid="hiro" creationdate="20201212T025611Z">
+        <seg>プロダクトオーナーまたはスクラムマスターがスプリントバックログのアイテムに積極的に取り組んでいる場合は、開
+発者として参加する。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-US">
+        <seg>If the work turns out to be different than they expected, they collaborate with the Product Owner to negotiate the scope of the Sprint Backlog within the Sprint without affecting the Sprint Goal.</seg>
+      </tuv>
+      <tuv xml:lang="ja" changeid="hiro" changedate="20201212T032752Z" creationid="hiro" creationdate="20201212T032752Z">
+        <seg>作業が予想と異なることが判明した場合は、スプリントゴールに影響を与えることがないように、プロダクトオーナーと交渉してスプリントバックログのスコープを調整する。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-US">
+        <seg>If there are multiple Scrum Teams working together on a product, they must mutually define and comply with the same Definition of Done.</seg>
+      </tuv>
+      <tuv xml:lang="ja" changeid="hiro" changedate="20201212T033316Z" creationid="hiro" creationdate="20201212T033316Z">
+        <seg>プロダクトに関わるスクラムチームが複数ある場合、共通の完成の定義を作成して、それに準拠する必要がある。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-US">
+        <seg>If you get value from Scrum, consider yourself included.</seg>
+      </tuv>
+      <tuv xml:lang="ja" changeid="hiro" changedate="20201211T204550Z" creationid="hiro" creationdate="20201211T204550Z">
+        <seg>スクラムから価値を得ているのであれば、そこにあなたも含まれていると考えてもらいたい。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-US">
+        <seg>In a nutshell, Scrum requires a Scrum Master to foster an environment where:</seg>
+      </tuv>
+      <tuv xml:lang="ja" changeid="hiro" changedate="20201211T204919Z" creationid="hiro" creationdate="20201211T204919Z">
+        <seg>簡単に⾔えば、スクラムとは次の環境を促進するためにスクラムマスターを必要とするものである。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-US">
+        <seg>In complex environments, what will happen is unknown.</seg>
+      </tuv>
+      <tuv xml:lang="ja" changeid="hiro" changedate="20201212T024405Z" creationid="hiro" creationdate="20201212T024405Z">
+        <seg>複雑な環境下では、何が起きるかわからない。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-US">
+        <seg>In general, we have found that smaller teams communicate better and are more productive.</seg>
+      </tuv>
+      <tuv xml:lang="ja" changeid="hiro" changedate="20201211T212343Z" creationid="hiro" creationdate="20201211T212343Z">
+        <seg>I⼀般的に⼩さなチームのほうがコミュニケーションがうまく、⽣産性が⾼いことがわかっている。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-US">
+        <seg>In order to provide value, the Increment must be usable.</seg>
+      </tuv>
+      <tuv xml:lang="ja" changeid="hiro" changedate="20201212T032917Z" creationid="hiro" creationdate="20201212T032917Z">
+        <seg>価値を提供するには、インクリメントを利⽤可能にしなければならない。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-US">
+        <seg>Increment</seg>
+      </tuv>
+      <tuv xml:lang="ja" changeid="hiro" changedate="20201211T202744Z" creationid="hiro" creationdate="20201211T202744Z">
+        <seg>インクリメント</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-US">
+        <seg>Inspected elements often vary with the domain of work.</seg>
+      </tuv>
+      <tuv xml:lang="ja" changeid="hiro" changedate="20201212T030052Z" creationid="hiro" creationdate="20201212T030052Z">
+        <seg>多くの場合、検査する要素は作業領域によって異なる。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-US">
+        <seg>Inspection</seg>
+      </tuv>
+      <tuv xml:lang="ja" changeid="hiro" changedate="20201211T202417Z" creationid="hiro" creationdate="20201211T202417Z">
+        <seg>検査</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-US">
+        <seg>Inspection enables adaptation.</seg>
+      </tuv>
+      <tuv xml:lang="ja" changeid="hiro" changedate="20201211T210123Z" creationid="hiro" creationdate="20201211T210123Z">
+        <seg>検査によって適応が可能になる。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-US">
+        <seg>Inspection without adaptation is considered pointless.</seg>
+      </tuv>
+      <tuv xml:lang="ja" changeid="hiro" changedate="20201211T210139Z" creationid="hiro" creationdate="20201211T210139Z">
+        <seg>適応のない検査は意味がないとされる。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-US">
+        <seg>Inspection without transparency is misleading and wasteful.</seg>
+      </tuv>
+      <tuv xml:lang="ja" changeid="hiro" changedate="20201211T205956Z" creationid="hiro" creationdate="20201211T205956Z">
+        <seg>透明性のない検査は、誤解を招き、ムダなものである。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-US">
+        <seg>Instead, it returns to the Product Backlog for future consideration.</seg>
+      </tuv>
+      <tuv xml:lang="ja" changeid="hiro" changedate="20201212T033228Z" creationid="hiro" creationdate="20201212T033228Z">
+        <seg>そうした場合、あとで検討できるようにプロダクトバックログに戻しておく。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-US">
+        <seg>Instilling quality by adhering to a Definition of Done;</seg>
+      </tuv>
+      <tuv xml:lang="ja" changeid="hiro" changedate="20201211T212758Z" creationid="hiro" creationdate="20201211T212758Z">
+        <seg>完成の定義を忠実に守ることにより品質を作り込む。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-US">
+        <seg>It essentially documented the learning that Ken and Jeff gained over the previous few years and made public the first formal definition of Scrum.</seg>
+      </tuv>
+      <tuv xml:lang="ja" changeid="hiro" changedate="20201212T033543Z" creationid="hiro" creationdate="20201212T033543Z">
+        <seg>この発表は、Ken と Jeff が過去数年間で学んだことを⽂書化したものであり、はじめて公開された正式なスクラムの定義である。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-US">
+        <seg>It has a clear boundary, known stakeholders, well-defined users or customers.</seg>
+      </tuv>
+      <tuv xml:lang="ja" changeid="hiro" changedate="20201212T032419Z" creationid="hiro" creationdate="20201212T032419Z">
+        <seg>プロダクトは、明確な境界、既知のステークホルダー、明確に定義されたユーザーや顧客を持っている。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-US">
+        <seg>It is a cohesive unit of professionals focused on one objective at a time, the Product Goal.</seg>
+      </tuv>
+      <tuv xml:lang="ja" changeid="hiro" changedate="20201211T212209Z" creationid="hiro" creationdate="20201211T212209Z">
+        <seg>これは、⼀度にひとつの⽬的（プロダクトゴール）に集中している専⾨家が集まった単位である。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-US">
+        <seg>It is a highly visible, real-time picture of the work that the Developers plan to accomplish during the Sprint in order to achieve the Sprint Goal.</seg>
+      </tuv>
+      <tuv xml:lang="ja" changeid="hiro" changedate="20201212T032549Z" creationid="hiro" creationdate="20201212T032549Z">
+        <seg>スプリントバックログには、スプリントゴールを達成するために開発者がスプリントで⾏う作業がリアルタイムに反映される。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-US">
+        <seg>It is the single source of work undertaken by the Scrum Team.</seg>
+      </tuv>
+      <tuv xml:lang="ja" changeid="hiro" changedate="20201212T032010Z" creationid="hiro" creationdate="20201212T032010Z">
+        <seg>これは、スクラムチームが⾏う作業の唯⼀の情報源である。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-US">
+        <seg>It is timeboxed to a maximum of three hours for a one-month Sprint.</seg>
+      </tuv>
+      <tuv xml:lang="ja" changeid="hiro" changedate="20201212T030253Z" creationid="hiro" creationdate="20201212T030253Z">
+        <seg>スプリントが 1 か⽉の場合、スプリントレトロスペクティブは最⼤ 3 時間である。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-US">
+        <seg>It should have enough detail that they can inspect their progress in the Daily Scrum.</seg>
+      </tuv>
+      <tuv xml:lang="ja" changeid="hiro" changedate="20201212T032610Z" creationid="hiro" creationdate="20201212T032610Z">
+        <seg>スプリントバックログはデイリースクラムで進捗を検査できる程度の詳細さが必要である。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-US">
+        <seg>Ken Schwaber and Jeff Sutherland first co-presented Scrum at the OOPSLA Conference in 1995.</seg>
+      </tuv>
+      <tuv xml:lang="ja" changeid="hiro" changedate="20201212T033526Z" creationid="hiro" creationdate="20201212T033526Z">
+        <seg>Ken Schwaber と Jeff Sutherland が、1995 年の OOPSLA カンファレンスにおいてスクラムを共同発表した。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-US">
+        <seg>Leading, training, and coaching the organization in its Scrum adoption;</seg>
+      </tuv>
+      <tuv xml:lang="ja" changeid="hiro" changedate="20201212T023631Z" creationid="hiro" creationdate="20201212T023631Z">
+        <seg>組織へのスクラムの導⼊を指導・トレーニング・コーチする。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-US">
+        <seg>Lean thinking reduces waste and focuses on the essentials.</seg>
+      </tuv>
+      <tuv xml:lang="ja" changeid="hiro" changedate="20201211T205541Z" creationid="hiro" creationdate="20201211T205541Z">
+        <seg>リーン思考では、ムダを省き、本質に集中する。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-US">
+        <seg>Many others contributed in the ensuing years and without their help Scrum would not be refined as it is today.</seg>
+      </tuv>
+      <tuv xml:lang="ja" changeid="hiro" changedate="20201212T033455Z" creationid="hiro" creationdate="20201212T033455Z">
+        <seg>その後の数年間は、さらに多くの⽅々が貢献してくれた。彼らの助けがなければ、スクラムは今⽇のように洗練されていなかっただろう。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-US">
+        <seg>Multiple Increments may be created within a Sprint.</seg>
+      </tuv>
+      <tuv xml:lang="ja" changeid="hiro" changedate="20201212T032950Z" creationid="hiro" creationdate="20201212T032950Z">
+        <seg>スプリントでは、複数のインクリメントを作成可能である。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-US">
+        <seg>No changes are made that would endanger the Sprint Goal;</seg>
+      </tuv>
+      <tuv xml:lang="ja" changeid="hiro" changedate="20201212T024103Z" creationid="hiro" creationdate="20201212T024103Z">
+        <seg>スプリントゴールの達成を危険にさらすような変更はしない。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-US">
+        <seg>No one else tells them how to turn Product Backlog items into Increments of value.</seg>
+      </tuv>
+      <tuv xml:lang="ja" changeid="hiro" changedate="20201212T025417Z" creationid="hiro" creationdate="20201212T025417Z">
+        <seg>プロダクトバックログアイテムを価値のインクリメントに変換する⽅法は誰も教えてくれない。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-US">
+        <seg>Of the thousands of people who have contributed to Scrum, we should single out those who were instrumental at the start: Jeff Sutherland worked with Jeff McKenna and John Scumniotales, and Ken Schwaber worked with Mike Smith and Chris Martin, and all of them worked together.</seg>
+      </tuv>
+      <tuv xml:lang="ja" changeid="hiro" changedate="20201212T033441Z" creationid="hiro" creationdate="20201212T033441Z">
+        <seg>スクラムに貢献してくれた多くの⽅々の中でも、最初に尽⼒してくれた⼈物の名前を挙げたい。まず、Jeff Sutherland と⼀緒に働いた Jeff McKenna と John Scumniotales。それから、Ken Schwaberと⼀緒に働いた Mike Smith と Chris Martin。みんなで⼀緒に働いたこともあった。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-US">
+        <seg>Only the Product Owner has the authority to cancel the Sprint.</seg>
+      </tuv>
+      <tuv xml:lang="ja" changeid="hiro" changedate="20201212T024449Z" creationid="hiro" creationdate="20201212T024449Z">
+        <seg>プロダクトオーナーだけがスプリントを中⽌する権限を持つ。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-US">
+        <seg>Only what has already happened may be used for forward-looking decision making.</seg>
+      </tuv>
+      <tuv xml:lang="ja" changeid="hiro" changedate="20201212T024420Z" creationid="hiro" creationdate="20201212T024420Z">
+        <seg>すでに発⽣したことだけが、将来を⾒据えた意思決定に使⽤できる。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-US">
+        <seg>Optimally, all events are held at the same time and place to reduce complexity.</seg>
+      </tuv>
+      <tuv xml:lang="ja" changeid="hiro" changedate="20201212T023923Z" creationid="hiro" creationdate="20201212T023923Z">
+        <seg>すべてのイベントは、複雑さを低減するために、同じ時間と場所で開催されることが望ましい。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-US">
+        <seg>Ordering Product Backlog items; and,</seg>
+      </tuv>
+      <tuv xml:lang="ja" changeid="hiro" changedate="20201211T213017Z" creationid="hiro" creationdate="20201211T213017Z">
+        <seg>プロダクトバックログアイテムを並び替える。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-US">
+        <seg>Other sources provide patterns, processes, and insights that complement the Scrum framework.</seg>
+      </tuv>
+      <tuv xml:lang="ja" changeid="hiro" changedate="20201212T033616Z" creationid="hiro" creationdate="20201212T033616Z">
+        <seg>その他の情報源では、スクラムフレームワークを補完するパターン、プロセス、インサイトなどが提供されている。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-US">
+        <seg>People</seg>
+      </tuv>
+      <tuv xml:lang="ja" changeid="hiro" changedate="20201212T033343Z" creationid="hiro" creationdate="20201212T033343Z">
+        <seg>人々</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-US">
+        <seg>Planning and advising Scrum implementations within the organization;</seg>
+      </tuv>
+      <tuv xml:lang="ja" changeid="hiro" changedate="20201212T023644Z" creationid="hiro" creationdate="20201212T023644Z">
+        <seg>組織においてスクラムの実施⽅法を計画・助⾔する。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-US">
+        <seg>Product Backlog</seg>
+      </tuv>
+      <tuv xml:lang="ja" changeid="hiro" changedate="20201211T202703Z" creationid="hiro" creationdate="20201211T202703Z">
+        <seg>プロダクトバックログ</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-US">
+        <seg>Product Backlog items that can be Done by the Scrum Team within one Sprint are deemed ready for selection in a Sprint Planning event.</seg>
+      </tuv>
+      <tuv xml:lang="ja" changeid="hiro" changedate="20201212T032105Z" creationid="hiro" creationdate="20201212T032105Z">
+        <seg>1 スプリント内でスクラムチームが完成できるプロダクトバックログアイテムは、スプリントプランニングのときには選択の準備ができている。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-US">
+        <seg>Product Backlog refinement is the act of breaking down and further defining Product Backlog items into smaller more precise items.</seg>
+      </tuv>
+      <tuv xml:lang="ja" changeid="hiro" changedate="20201212T032204Z" creationid="hiro" creationdate="20201212T032204Z">
+        <seg>プロダクトバックログアイテムがより⼩さく詳細になるように、分割および定義をする活動である。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-US">
+        <seg>Product Owner</seg>
+      </tuv>
+      <tuv xml:lang="ja" changeid="hiro" changedate="20201211T202508Z" creationid="hiro" creationdate="20201211T202508Z">
+        <seg>プロダクトオーナー</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-US">
+        <seg>Purpose of the Scrum Guide</seg>
+      </tuv>
+      <tuv xml:lang="ja" changeid="hiro" changedate="20201211T202308Z" creationid="hiro" creationdate="20201211T202308Z">
+        <seg>スクラムガイドの目的</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-US">
+        <seg>Quality does not decrease;</seg>
+      </tuv>
+      <tuv xml:lang="ja" changeid="hiro" changedate="20201212T024115Z" creationid="hiro" creationdate="20201212T024115Z">
+        <seg>品質を低下させない。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-US">
+        <seg>Rather than provide people with detailed instructions, the rules of Scrum guide their relationships and interactions.</seg>
+      </tuv>
+      <tuv xml:lang="ja" changeid="hiro" changedate="20201211T205253Z" creationid="hiro" creationdate="20201211T205253Z">
+        <seg>スクラムのルールは詳細な指⽰を提供するものではなく、実践者の関係性や相互作⽤をガイドするものである。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-US">
+        <seg>Regardless, the Product Owner remains accountable.</seg>
+      </tuv>
+      <tuv xml:lang="ja" changeid="hiro" changedate="20201211T213108Z" creationid="hiro" creationdate="20201211T213108Z">
+        <seg>いずれの場合も、最終的な責任はプロダクトオーナーが持つ。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-US">
+        <seg>Removing barriers between stakeholders and Scrum Teams.</seg>
+      </tuv>
+      <tuv xml:lang="ja" changeid="hiro" changedate="20201212T023710Z" creationid="hiro" creationdate="20201212T023710Z">
+        <seg>ステークホルダーとスクラムチームの間の障壁を取り除く。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-US">
+        <seg>Repeat</seg>
+      </tuv>
+      <tuv xml:lang="ja" changeid="hiro" changedate="20201211T205045Z" creationid="hiro" creationdate="20201211T205045Z">
+        <seg>繰り返す。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-US">
+        <seg>Scope may be clarified and renegotiated with the Product Owner as more is learned.</seg>
+      </tuv>
+      <tuv xml:lang="ja" changeid="hiro" changedate="20201212T024143Z" creationid="hiro" creationdate="20201212T024143Z">
+        <seg>学習が進むにつれてスコープが明確化され、プロダクトオーナーとの再交渉が必要になる場合がある。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-US">
+        <seg>Scrum Artifacts</seg>
+      </tuv>
+      <tuv xml:lang="ja" changeid="hiro" changedate="20201211T202650Z" creationid="hiro" creationdate="20201211T202650Z">
+        <seg>スクラムの作成物</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-US">
+        <seg>Scrum Definition</seg>
+      </tuv>
+      <tuv xml:lang="ja" changeid="hiro" changedate="20201211T202337Z" creationid="hiro" creationdate="20201211T202337Z">
+        <seg>スクラムの定義</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-US">
+        <seg>Scrum Events</seg>
+      </tuv>
+      <tuv xml:lang="ja" changeid="hiro" changedate="20201211T202525Z" creationid="hiro" creationdate="20201211T202525Z">
+        <seg>スクラムイベント</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-US">
+        <seg>Scrum Guide History</seg>
+      </tuv>
+      <tuv xml:lang="ja" changeid="hiro" changedate="20201212T033511Z" creationid="hiro" creationdate="20201212T033511Z">
+        <seg>スクラムガイドの歴史</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-US">
+        <seg>Scrum Master</seg>
+      </tuv>
+      <tuv xml:lang="ja" changeid="hiro" changedate="20201211T202517Z" creationid="hiro" creationdate="20201211T202517Z">
+        <seg>スクラムマスター</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-US">
+        <seg>Scrum Masters are true leaders who serve the Scrum Team and the larger organization.</seg>
+      </tuv>
+      <tuv xml:lang="ja" changeid="hiro" changedate="20201212T023256Z" creationid="hiro" creationdate="20201212T023256Z">
+        <seg>スクラムマスターは、スクラムチームと、より⼤きな組織に奉仕する真のリーダーである。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-US">
+        <seg>Scrum Team</seg>
+      </tuv>
+      <tuv xml:lang="ja" changeid="hiro" changedate="20201211T202451Z" creationid="hiro" creationdate="20201211T202451Z">
+        <seg>スクラムチーム</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-US">
+        <seg>Scrum Team members respect each other to be capable, independent people, and are respected as such by the people with whom they work.</seg>
+      </tuv>
+      <tuv xml:lang="ja" changeid="hiro" changedate="20201211T210552Z" creationid="hiro" creationdate="20201211T210552Z">
+        <seg>スクラムチームのメンバーは、お互いに能⼒のある独⽴した個⼈として尊敬し、⼀緒に働く⼈たちからも同じように尊敬される。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-US">
+        <seg>Scrum Teams are cross-functional, meaning the members have all the skills necessary to create value each Sprint.</seg>
+      </tuv>
+      <tuv xml:lang="ja" changeid="hiro" changedate="20201211T212246Z" creationid="hiro" creationdate="20201211T212246Z">
+        <seg>スクラムチームは機能横断型で、各スプリントで価値を⽣み出すために必要なすべてのスキルを備えている。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-US">
+        <seg>Scrum Theory</seg>
+      </tuv>
+      <tuv xml:lang="ja" changeid="hiro" changedate="20201211T202354Z" creationid="hiro" creationdate="20201211T202354Z">
+        <seg>スクラムの理論</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-US">
+        <seg>Scrum Values</seg>
+      </tuv>
+      <tuv xml:lang="ja" changeid="hiro" changedate="20201211T202440Z" creationid="hiro" creationdate="20201211T202440Z">
+        <seg>スクラムの価値基準</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-US">
+        <seg>Scrum combines four formal events for inspection and adaptation within a containing event, the Sprint.</seg>
+      </tuv>
+      <tuv xml:lang="ja" changeid="hiro" changedate="20201211T205756Z" creationid="hiro" creationdate="20201211T205717Z">
+        <seg>スクラムでは、検査と適応のための 4 つの正式なイベントを組み合わせている。それらを包含するイベントは「スプリント」と呼ばれる。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-US">
+        <seg>Scrum defines three specific accountabilities within the Scrum Team: the Developers, the Product Owner, and the Scrum Master.</seg>
+      </tuv>
+      <tuv xml:lang="ja" changeid="hiro" changedate="20201211T212610Z" creationid="hiro" creationdate="20201211T212610Z">
+        <seg>スクラムはスクラムチームにおいて、開発者、プロダクトオーナー、スクラムマスターという 3 つの明確な責任を定義する。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-US">
+        <seg>Scrum employs an iterative, incremental approach to optimize predictability and to control risk.</seg>
+      </tuv>
+      <tuv xml:lang="ja" changeid="hiro" changedate="20201211T205610Z" creationid="hiro" creationdate="20201211T205610Z">
+        <seg>スクラムでは、予測可能性を最適化してリスクを制御するために、イテレーティブ（反復的）でインクリメンタル（漸進的）なアプローチを採⽤している。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-US">
+        <seg>Scrum engages groups of people who collectively have all the skills and expertise to do the work and share or acquire such skills as needed.</seg>
+      </tuv>
+      <tuv xml:lang="ja" changeid="hiro" changedate="20201211T205658Z" creationid="hiro" creationdate="20201211T205658Z">
+        <seg>スクラムを構成するのは、作業に必要なすべてのスキルと経験をグループ全体として備える⼈たちである。また、必要に応じてそうしたスキルを共有または習得できる⼈たちである。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-US">
+        <seg>Scrum events are designed to provoke change.</seg>
+      </tuv>
+      <tuv xml:lang="ja" changeid="hiro" changedate="20201211T210200Z" creationid="hiro" creationdate="20201211T210200Z">
+        <seg>スクラムのイベントは、変化を引き起こすように設計されている。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-US">
+        <seg>Scrum exists only in its entirety and functions well as a container for other techniques, methodologies, and practices.</seg>
+      </tuv>
+      <tuv xml:lang="ja" changeid="hiro" changedate="20201211T211941Z" creationid="hiro" creationdate="20201211T211941Z">
+        <seg>すべてを備えたものがスクラムであり、その他の技法・⽅法論・プラクティスの⼊れ物として機能するものである。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-US">
+        <seg>Scrum is a lightweight framework that helps people, teams and organizations generate value through adaptive solutions for complex problems.</seg>
+      </tuv>
+      <tuv xml:lang="ja" changeid="hiro" changedate="20201211T204855Z" creationid="hiro" creationdate="20201211T204855Z">
+        <seg>スクラムとは、複雑な問題に対応する適応型のソリューションを通じて、⼈々、チーム、組織が価値を⽣み出すための軽量級フレームワークである。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-US">
+        <seg>Scrum is built upon by the collective intelligence of the people using it.</seg>
+      </tuv>
+      <tuv xml:lang="ja" changeid="hiro" changedate="20201211T205232Z" creationid="hiro" creationdate="20201211T205232Z">
+        <seg>スクラムは実践する⼈たちの集合知で構築されている。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-US">
+        <seg>Scrum is founded on empiricism and lean thinking.</seg>
+      </tuv>
+      <tuv xml:lang="ja" changeid="hiro" changedate="20201211T205448Z" creationid="hiro" creationdate="20201211T205448Z">
+        <seg>スクラムは「経験主義」と「リーン思考」に基づいている。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-US">
+        <seg>Scrum is free and offered in this Guide.</seg>
+      </tuv>
+      <tuv xml:lang="ja" changeid="hiro" changedate="20201211T211846Z" creationid="hiro" creationdate="20201211T211846Z">
+        <seg>スクラムは無料であり、本ガイドで提供されるものである。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-US">
+        <seg>Scrum is simple.</seg>
+      </tuv>
+      <tuv xml:lang="ja" changeid="hiro" changedate="20201211T205115Z" creationid="hiro" creationdate="20201211T205115Z">
+        <seg>スクラムはシンプルである。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-US">
+        <seg>Scrum makes visible the relative efficacy of current management, environment, and work techniques, so that improvements can be made.</seg>
+      </tuv>
+      <tuv xml:lang="ja" changeid="hiro" changedate="20201211T205407Z" creationid="hiro" creationdate="20201211T205407Z">
+        <seg>スクラムによって現在のマネジメント、環境、作業技術の相対的な有効性が可視化され、改善が可能になるのである。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-US">
+        <seg>Scrum wraps around existing practices or renders them unnecessary.</seg>
+      </tuv>
+      <tuv xml:lang="ja" changeid="hiro" changedate="20201211T205345Z" creationid="hiro" creationdate="20201211T205345Z">
+        <seg>スクラムは既存のプラクティスを包み込む。あるいは、その存在を不要にする。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-US">
+        <seg>Scrum’s artifacts represent work or value.</seg>
+      </tuv>
+      <tuv xml:lang="ja" changeid="hiro" changedate="20201212T030323Z" creationid="hiro" creationdate="20201212T030323Z">
+        <seg>スクラムの作成物は、作業や価値を表している。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-US">
+        <seg>Selecting how much can be completed within a Sprint may be challenging.</seg>
+      </tuv>
+      <tuv xml:lang="ja" changeid="hiro" changedate="20201212T025236Z" creationid="hiro" creationdate="20201212T025236Z">
+        <seg>スプリント内でどれくらい完了できるかを選択するのは難しいかもしれない。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-US">
+        <seg>Shorter Sprints can be employed to generate more learning cycles and limit risk of cost and effort to a smaller time frame.</seg>
+      </tuv>
+      <tuv xml:lang="ja" changeid="hiro" changedate="20201212T024251Z" creationid="hiro" creationdate="20201212T024251Z">
+        <seg>スプリントの期間を短くすれば、より多くの学習サイクルを⽣み出し、コストや労⼒のリスクを短い時間枠に収めることができる。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-US">
+        <seg>Sprint Backlog</seg>
+      </tuv>
+      <tuv xml:lang="ja" changeid="hiro" changedate="20201211T202716Z" creationid="hiro" creationdate="20201211T202716Z">
+        <seg>スプリントバックログ</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-US">
+        <seg>Sprint Planning</seg>
+      </tuv>
+      <tuv xml:lang="ja" changeid="hiro" changedate="20201211T202548Z" creationid="hiro" creationdate="20201211T202548Z">
+        <seg>スプリントプランニング</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-US">
+        <seg>Sprint Planning addresses the following topics:</seg>
+      </tuv>
+      <tuv xml:lang="ja" changeid="hiro" changedate="20201212T025005Z" creationid="hiro" creationdate="20201212T025005Z">
+        <seg>スプリントプランニングは次のトピックに対応する：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-US">
+        <seg>Sprint Planning initiates the Sprint by laying out the work to be performed for the Sprint.</seg>
+      </tuv>
+      <tuv xml:lang="ja" changeid="hiro" changedate="20201212T024859Z" creationid="hiro" creationdate="20201212T024859Z">
+        <seg>スプリントプランニングはスプリントの起点であり、ここではスプリントで実⾏する作業の計画を⽴てる。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-US">
+        <seg>Sprint Planning is timeboxed to a maximum of eight hours for a one-month Sprint.</seg>
+      </tuv>
+      <tuv xml:lang="ja" changeid="hiro" changedate="20201212T025445Z" creationid="hiro" creationdate="20201212T025445Z">
+        <seg>スプリントが 1 か⽉の場合、スプリントプランニングのタイムボックスは最⼤で 8 時間である。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-US">
+        <seg>Sprint Retrospective</seg>
+      </tuv>
+      <tuv xml:lang="ja" changeid="hiro" changedate="20201211T202639Z" creationid="hiro" creationdate="20201211T202639Z">
+        <seg>スプリントレトロスペクティブ</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-US">
+        <seg>Sprint Review</seg>
+      </tuv>
+      <tuv xml:lang="ja" changeid="hiro" changedate="20201211T202618Z" creationid="hiro" creationdate="20201211T202618Z">
+        <seg>スプリントレビュー</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-US">
+        <seg>Sprints are the heartbeat of Scrum, where ideas are turned into value.</seg>
+      </tuv>
+      <tuv xml:lang="ja" changeid="hiro" changedate="20201212T023941Z" creationid="hiro" creationdate="20201212T023941Z">
+        <seg>スプリントはスクラムにおける⼼臓の⿎動であり、スプリントにおいてアイデアが価値に変わる。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-US">
+        <seg>Sprints enable predictability by ensuring inspection and adaptation of progress toward a Product Goal at least every calendar month.</seg>
+      </tuv>
+      <tuv xml:lang="ja" changeid="hiro" changedate="20201212T024204Z" creationid="hiro" creationdate="20201212T024204Z">
+        <seg>スプリントによって、プロダクトゴールに対する進捗の検査と適応が少なくとも 1 か⽉ごとに確実になり、予測可能性が⾼まる。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-US">
+        <seg>Successful use of Scrum depends on people becoming more proficient in living five values:</seg>
+      </tuv>
+      <tuv xml:lang="ja" changeid="hiro" changedate="20201211T210350Z" creationid="hiro" creationdate="20201211T210350Z">
+        <seg>スクラムが成功するかどうかは、次の 5 つの価値基準を実践できるかどうかにかかっている。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-US">
+        <seg>Such tactics for using within the Scrum framework vary widely and are described elsewhere.</seg>
+      </tuv>
+      <tuv xml:lang="ja" changeid="hiro" changedate="20201211T204728Z" creationid="hiro" creationdate="20201211T204728Z">
+        <seg>スクラムフレームワークで利⽤できる戦術にはさまざまなものが存在するが、それらはスクラムガイド以外のところで説明されている。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-US">
+        <seg>Table of Contents</seg>
+      </tuv>
+      <tuv xml:lang="ja" changeid="hiro" changedate="20201211T202148Z" creationid="hiro" creationdate="20201211T202148Z">
+        <seg>目次</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-US">
+        <seg>The Daily Scrum is a 15-minute event for the Developers of the Scrum Team.</seg>
+      </tuv>
+      <tuv xml:lang="ja" changeid="hiro" changedate="20201212T025529Z" creationid="hiro" creationdate="20201212T025529Z">
+        <seg>デイリースクラムは、スクラムチームの開発者のための 15 分のイベントである。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-US">
+        <seg>The Daily Scrum is not the only time Developers are allowed to adjust their plan.</seg>
+      </tuv>
+      <tuv xml:lang="ja" changeid="hiro" changedate="20201212T025725Z" creationid="hiro" creationdate="20201212T025725Z">
+        <seg>開発者が計画を調整できるのは、デイリースクラムのときだけではない。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-US">
+        <seg>The Definition of Done creates transparency by providing everyone a shared understanding of what work was completed as part of the Increment.</seg>
+      </tuv>
+      <tuv xml:lang="ja" changeid="hiro" changedate="20201212T033131Z" creationid="hiro" creationdate="20201212T033131Z">
+        <seg>完成の定義により、作業が完了してインクリメントの⼀部となったことが全員の共通認識となり、透明性が⽣み出される。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-US">
+        <seg>The Definition of Done is a formal description of the state of the Increment when it meets the quality measures required for the product.</seg>
+      </tuv>
+      <tuv xml:lang="ja" changeid="hiro" changedate="20201212T033106Z" creationid="hiro" creationdate="20201212T033106Z">
+        <seg>完成の定義とは、プロダクトの品質基準を満たすインクリメントの状態を⽰した正式な記述である。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-US">
+        <seg>The Developers are required to conform to the Definition of Done.</seg>
+      </tuv>
+      <tuv xml:lang="ja" changeid="hiro" changedate="20201212T033306Z" creationid="hiro" creationdate="20201212T033306Z">
+        <seg>開発者は完成の定義に準拠する必要がある。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-US">
+        <seg>The Developers can select whatever structure and techniques they want, as long as their Daily Scrum focuses on progress toward the Sprint Goal and produces an actionable plan for the next day of work.</seg>
+      </tuv>
+      <tuv xml:lang="ja" changeid="hiro" changedate="20201212T025642Z" creationid="hiro" creationdate="20201212T025642Z">
+        <seg>開発者は、デイリースクラムがスプリントゴールの進捗に焦点をあて、これからの 1 ⽇の作業の実⾏可能な計画を作成する限り、必要な構造とやり⽅を選択できる。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-US">
+        <seg>The Developers who will be doing the work are responsible for the sizing.</seg>
+      </tuv>
+      <tuv xml:lang="ja" changeid="hiro" changedate="20201212T032240Z" creationid="hiro" creationdate="20201212T032240Z">
+        <seg>作業を⾏う開発者は、その作業規模の評価に責任を持つ。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-US">
+        <seg>The Product Backlog is an emergent, ordered list of what is needed to improve the product.</seg>
+      </tuv>
+      <tuv xml:lang="ja" changeid="hiro" changedate="20201212T031953Z" creationid="hiro" creationdate="20201212T031953Z">
+        <seg>プロダクトバックログは、創発的かつ順番に並べられた、プロダクトの改善に必要なものの⼀覧である。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-US">
+        <seg>The Product Backlog is refined as needed; and,</seg>
+      </tuv>
+      <tuv xml:lang="ja" changeid="hiro" changedate="20201212T024127Z" creationid="hiro" creationdate="20201212T024127Z">
+        <seg>プロダクトバックログを必要に応じてリファインメントする。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-US">
+        <seg>The Product Backlog may also be adjusted to meet new opportunities.</seg>
+      </tuv>
+      <tuv xml:lang="ja" changeid="hiro" changedate="20201212T025906Z" creationid="hiro" creationdate="20201212T025906Z">
+        <seg>新たな機会に⾒合うようにプロダクトバックログを調整することもある。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-US">
+        <seg>The Product Goal describes a future state of the product which can serve as a target for the Scrum Team to plan against.</seg>
+      </tuv>
+      <tuv xml:lang="ja" changeid="hiro" changedate="20201212T032329Z" creationid="hiro" creationdate="20201212T032329Z">
+        <seg>プロダクトゴールは、プロダクトの将来の状態を表している。それがスクラムチームの計画のターゲットになる。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-US">
+        <seg>The Product Goal is in the Product Backlog.</seg>
+      </tuv>
+      <tuv xml:lang="ja" changeid="hiro" changedate="20201212T032339Z" creationid="hiro" creationdate="20201212T032339Z">
+        <seg>プロダクトゴールはプロダクトバックログに含まれる。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-US">
+        <seg>The Product Goal is the long-term objective for the Scrum Team.</seg>
+      </tuv>
+      <tuv xml:lang="ja" changeid="hiro" changedate="20201212T032444Z" creationid="hiro" creationdate="20201212T032444Z">
+        <seg>プロダクトゴールは、スクラムチームの⻑期的な⽬標である。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-US">
+        <seg>The Product Owner ensures that attendees are prepared to discuss the most important Product Backlog items and how they map to the Product Goal.</seg>
+      </tuv>
+      <tuv xml:lang="ja" changeid="hiro" changedate="20201212T024933Z" creationid="hiro" creationdate="20201212T024933Z">
+        <seg>プロダクトオーナーは参加者に対して、最も重要なプロダクトバックログアイテムと、それらとプロダクトゴールとの関連性について話し合う準備ができているかを確認する。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-US">
+        <seg>The Product Owner is accountable for maximizing the value of the product resulting from the work of the Scrum Team.</seg>
+      </tuv>
+      <tuv xml:lang="ja" changeid="hiro" changedate="20201211T212848Z" creationid="hiro" creationdate="20201211T212848Z">
+        <seg>プロダクトオーナーは、スクラムチームから⽣み出されるプロダクトの価値を最⼤化することの結果に責任を持つ。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-US">
+        <seg>The Product Owner is also accountable for effective Product Backlog management, which includes:</seg>
+      </tuv>
+      <tuv xml:lang="ja" changeid="hiro" changedate="20201211T212932Z" creationid="hiro" creationdate="20201211T212932Z">
+        <seg>プロダクトオーナーは、効果的なプロダクトバックログ管理にも責任を持つ。たとえば、</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-US">
+        <seg>The Product Owner is one person, not a committee.</seg>
+      </tuv>
+      <tuv xml:lang="ja" changeid="hiro" changedate="20201211T213154Z" creationid="hiro" creationdate="20201211T213154Z">
+        <seg>プロダクトオーナーは 1 ⼈の⼈間であり、委員会ではない。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-US">
+        <seg>The Product Owner may do the above work or may delegate the responsibility to others.</seg>
+      </tuv>
+      <tuv xml:lang="ja" changeid="hiro" changedate="20201211T213055Z" creationid="hiro" creationdate="20201211T213055Z">
+        <seg>上記の作業は、プロダクトオーナーが⾏うこともできるが、他の⼈に委任することもできる。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-US">
+        <seg>The Product Owner may influence the Developers by helping them understand and select trade-offs.</seg>
+      </tuv>
+      <tuv xml:lang="ja" changeid="hiro" changedate="20201212T032255Z" creationid="hiro" creationdate="20201212T032255Z">
+        <seg>開発者がトレードオフを理解して選択できるように、プロダクトオーナーが開発者を⽀援することもできる。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-US">
+        <seg>The Product Owner may represent the needs of many stakeholders in the Product Backlog.</seg>
+      </tuv>
+      <tuv xml:lang="ja" changeid="hiro" changedate="20201211T213210Z" creationid="hiro" creationdate="20201211T213210Z">
+        <seg>プロダクトオーナーは、多くのステークホルダーのニーズをプロダクトバックログで表している場合がある。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-US">
+        <seg>The Product Owner proposes how the product could increase its value and utility in the current Sprint.</seg>
+      </tuv>
+      <tuv xml:lang="ja" changeid="hiro" changedate="20201212T025037Z" creationid="hiro" creationdate="20201212T025037Z">
+        <seg>プロダクトオーナーは、プロダクトの価値と有⽤性を今回のスプリントでどのように⾼めることができるかを提案する。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-US">
+        <seg>The Scrum Guide contains the definition of Scrum.</seg>
+      </tuv>
+      <tuv xml:lang="ja" changeid="hiro" changedate="20201211T203210Z" creationid="hiro" creationdate="20201211T203210Z">
+        <seg>スクラムガイドにはスクラムの定義が含まれている。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-US">
+        <seg>The Scrum Guide documents Scrum as developed, evolved, and sustained for 30-plus years by Jeff Sutherland and Ken Schwaber.</seg>
+      </tuv>
+      <tuv xml:lang="ja" changeid="hiro" changedate="20201212T033559Z" creationid="hiro" creationdate="20201212T033559Z">
+        <seg>スクラムガイドは、Jeff Sutherland と Ken Schwaber が 30 年以上かけて開発・進化・保守しているスクラムを⽂書化したものである。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-US">
+        <seg>The Scrum Master is accountable for establishing Scrum as defined in the Scrum Guide.</seg>
+      </tuv>
+      <tuv xml:lang="ja" changeid="hiro" changedate="20201212T023133Z" creationid="hiro" creationdate="20201212T023133Z">
+        <seg>スクラムマスターは、スクラムガイドで定義されたスクラムを確⽴させることの結果に責任を持つ。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-US">
+        <seg>The Scrum Master is accountable for the Scrum Team’s effectiveness.</seg>
+      </tuv>
+      <tuv xml:lang="ja" changeid="hiro" changedate="20201212T023217Z" creationid="hiro" creationdate="20201212T023217Z">
+        <seg>スクラムマスターは、スクラムチームの有効性に責任を持つ。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-US">
+        <seg>The Scrum Master serves the Product Owner in several ways, including:</seg>
+      </tuv>
+      <tuv xml:lang="ja" changeid="hiro" changedate="20201212T023458Z" creationid="hiro" creationdate="20201212T023458Z">
+        <seg>スクラムマスターは、さまざまな形でプロダクトオーナーを⽀援する。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-US">
+        <seg>The Scrum Master serves the Scrum Team in several ways, including:</seg>
+      </tuv>
+      <tuv xml:lang="ja" changeid="hiro" changedate="20201212T023310Z" creationid="hiro" creationdate="20201212T023310Z">
+        <seg>スクラムマスターは、さまざまな形でスクラムチームを⽀援する。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-US">
+        <seg>The Scrum Master serves the organization in several ways, including:</seg>
+      </tuv>
+      <tuv xml:lang="ja" changeid="hiro" changedate="20201212T023618Z" creationid="hiro" creationdate="20201212T023618Z">
+        <seg>スクラムマスターは、さまざまな形で組織を⽀援する。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-US">
+        <seg>The Scrum Team and its stakeholders are open about the work and the challenges.</seg>
+      </tuv>
+      <tuv xml:lang="ja" changeid="hiro" changedate="20201211T210529Z" creationid="hiro" creationdate="20201211T210529Z">
+        <seg>スクラムチームとステークホルダーは、作業や課題を公開する。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-US">
+        <seg>The Scrum Team and its stakeholders inspect the results and adjust for the next Sprint.</seg>
+      </tuv>
+      <tuv xml:lang="ja" changeid="hiro" changedate="20201211T205034Z" creationid="hiro" creationdate="20201211T205034Z">
+        <seg>スクラムチームとステークホルダーは、結果を検査して、次のスプリントに向けて調整する。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-US">
+        <seg>The Scrum Team commits to achieving its goals and to supporting each other.</seg>
+      </tuv>
+      <tuv xml:lang="ja" changeid="hiro" changedate="20201211T210456Z" creationid="hiro" creationdate="20201211T210456Z">
+        <seg>スクラムチームは、ゴールを達成し、お互いにサポートすることを確約する。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-US">
+        <seg>The Scrum Team consists of one Scrum Master, one Product Owner, and Developers.</seg>
+      </tuv>
+      <tuv xml:lang="ja" changeid="hiro" changedate="20201211T212114Z" creationid="hiro" creationdate="20201211T212114Z">
+        <seg>スクラムチームは、スクラムマスター1 ⼈、プロダクトオーナー1 ⼈、複数⼈の開発者で構成される。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-US">
+        <seg>The Scrum Team discusses what went well during the Sprint, what problems it encountered, and how those problems were (or were not) solved.</seg>
+      </tuv>
+      <tuv xml:lang="ja" changeid="hiro" changedate="20201212T030138Z" creationid="hiro" creationdate="20201212T030138Z">
+        <seg>スクラムチームは、スプリント中に何がうまくいったか、どのような問題が発⽣したか、そしてそれらの問題がどのように解決されたか（または解決されなかったか）について話し合う。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-US">
+        <seg>The Scrum Team identifies the most helpful changes to improve its effectiveness.</seg>
+      </tuv>
+      <tuv xml:lang="ja" changeid="hiro" changedate="20201212T030154Z" creationid="hiro" creationdate="20201212T030154Z">
+        <seg>スクラムチームは、⾃分たちの効果を改善するために最も役⽴つ変更を特定する。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-US">
+        <seg>The Scrum Team inspects how the last Sprint went with regards to individuals, interactions, processes, tools, and their Definition of Done.</seg>
+      </tuv>
+      <tuv xml:lang="ja" changeid="hiro" changedate="20201212T030029Z" creationid="hiro" creationdate="20201212T030029Z">
+        <seg>スクラムチームは、個⼈、相互作⽤、プロセス、ツール、完成の定義に関して、今回のスプリントがどのように進んだかを検査する。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-US">
+        <seg>The Scrum Team is responsible for all product-related activities from stakeholder collaboration, verification, maintenance, operation, experimentation, research and development, and anything else that might be required.</seg>
+      </tuv>
+      <tuv xml:lang="ja" changeid="hiro" changedate="20201211T212502Z" creationid="hiro" creationdate="20201211T212502Z">
+        <seg>スクラムチームは、ステークホルダーとのコラボレーション、検証、保守、運⽤、実験、研究開発など、プロダクトに関して必要となり得るすべての活動に責任を持つ。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-US">
+        <seg>The Scrum Team is small enough to remain nimble and large enough to complete significant work within a Sprint, typically 10 or fewer people.</seg>
+      </tuv>
+      <tuv xml:lang="ja" changeid="hiro" changedate="20201211T212321Z" creationid="hiro" creationdate="20201211T212321Z">
+        <seg>スクラムチームは、敏捷性を維持するための⼗分な⼩ささと、スプリント内で重要な作業を完了するための⼗分な⼤きさがあり、通常は 10 ⼈以下である。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-US">
+        <seg>The Scrum Team may also invite other people to attend Sprint Planning to provide advice.</seg>
+      </tuv>
+      <tuv xml:lang="ja" changeid="hiro" changedate="20201212T024950Z" creationid="hiro" creationdate="20201212T024950Z">
+        <seg>スクラムチームは、アドバイスをもらうためにチーム以外の⼈をスプリントプランニングに招待してもよい。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-US">
+        <seg>The Scrum Team may refine these items during this process, which increases understanding and confidence.</seg>
+      </tuv>
+      <tuv xml:lang="ja" changeid="hiro" changedate="20201212T025221Z" creationid="hiro" creationdate="20201212T025221Z">
+        <seg>スクラムチームは、このプロセスの中でプロダクトバックログアイテムのリファインメントをする場合がある。それによって、チームの理解と⾃信が⾼まる。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-US">
+        <seg>The Scrum Team members have the courage to do the right thing, to work on tough problems.</seg>
+      </tuv>
+      <tuv xml:lang="ja" changeid="hiro" changedate="20201211T210609Z" creationid="hiro" creationdate="20201211T210609Z">
+        <seg>スクラムチームのメンバーは、正しいことをする勇気や困難な問題に取り組む勇気を持つ。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-US">
+        <seg>The Scrum Team members learn and explore the values as they work with the Scrum events and artifacts.</seg>
+      </tuv>
+      <tuv xml:lang="ja" changeid="hiro" changedate="20201211T210701Z" creationid="hiro" creationdate="20201211T210701Z">
+        <seg>スクラムチームのメンバーは、スクラムのイベントや作成物を⽤いながら、これらの価値基準を学習および探求する。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-US">
+        <seg>The Scrum Team presents the results of their work to key stakeholders and progress toward the Product Goal is discussed.</seg>
+      </tuv>
+      <tuv xml:lang="ja" changeid="hiro" changedate="20201212T025817Z" creationid="hiro" creationdate="20201212T025817Z">
+        <seg>スクラムチームは、主要なステークホルダーに作業の結果を提⽰し、プロダクトゴールに対する進捗について話し合う。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-US">
+        <seg>The Scrum Team turns a selection of the work into an Increment of value during a Sprint.</seg>
+      </tuv>
+      <tuv xml:lang="ja" changeid="hiro" changedate="20201211T205005Z" creationid="hiro" creationdate="20201211T205005Z">
+        <seg>スクラムチームは、スプリントで選択した作業を価値のインクリメントに変える。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-US">
+        <seg>The Scrum artifacts and the progress toward agreed goals must be inspected frequently and diligently to detect potentially undesirable variances or problems.</seg>
+      </tuv>
+      <tuv xml:lang="ja" changeid="hiro" changedate="20201211T210053Z" creationid="hiro" creationdate="20201211T210015Z">
+        <seg>スクラムの作成物と合意されたゴールに向けた進捗状況は、頻繁かつ熱⼼に検査されなければならない。これは、潜在的に望ましくない変化や問題を検知するためである。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-US">
+        <seg>The Scrum framework is purposefully incomplete, only defining the parts required to implement Scrum theory.</seg>
+      </tuv>
+      <tuv xml:lang="ja" changeid="hiro" changedate="20201211T205201Z" creationid="hiro" creationdate="20201211T205201Z">
+        <seg>スクラムフレームワークは意図的に不完全なものであり、スクラムの理論を実現するために必要な部分のみが定義されている。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-US">
+        <seg>The Scrum framework, as outlined herein, is immutable.</seg>
+      </tuv>
+      <tuv xml:lang="ja" changeid="hiro" changedate="20201211T211904Z" creationid="hiro" creationdate="20201211T211904Z">
+        <seg>ここで概要を述べたように、スクラムフレームワークは不変である。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-US">
+        <seg>The Sprint</seg>
+      </tuv>
+      <tuv xml:lang="ja" changeid="hiro" changedate="20201211T202536Z" creationid="hiro" creationdate="20201211T202536Z">
+        <seg>スプリント</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-US">
+        <seg>The Sprint Backlog is a plan by and for the Developers.</seg>
+      </tuv>
+      <tuv xml:lang="ja" changeid="hiro" changedate="20201212T032529Z" creationid="hiro" creationdate="20201212T032529Z">
+        <seg>スプリントバックログは、開発者による、開発者のための計画である。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-US">
+        <seg>The Sprint Backlog is composed of the Sprint Goal (why), the set of Product Backlog items selected for the Sprint (what), as well as an actionable plan for delivering the Increment (how).</seg>
+      </tuv>
+      <tuv xml:lang="ja" changeid="hiro" changedate="20201212T032516Z" creationid="hiro" creationdate="20201212T032516Z">
+        <seg>スプリントバックログは、スプリントゴール（なぜ）、スプリント向けに選択されたいくつかのプロダクトバックログアイテム（何を）、およびインクリメントを届けるための実⾏可能な計画（どのように）で構成される。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-US">
+        <seg>The Sprint Goal also creates coherence and focus, encouraging the Scrum Team to work together rather than on separate initiatives.</seg>
+      </tuv>
+      <tuv xml:lang="ja" changeid="hiro" changedate="20201212T032708Z" creationid="hiro" creationdate="20201212T032708Z">
+        <seg>スプリントゴールはまた、⼀貫性と集中を⽣み出し、スクラムチームに⼀致団結した作業を促すものでもある。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-US">
+        <seg>The Sprint Goal is created during the Sprint Planning event and then added to the Sprint Backlog.</seg>
+      </tuv>
+      <tuv xml:lang="ja" changeid="hiro" changedate="20201212T032721Z" creationid="hiro" creationdate="20201212T032721Z">
+        <seg>スプリントゴールは、スプリントプランニングで作成され、スプリントバックログに追加される。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-US">
+        <seg>The Sprint Goal is the single objective for the Sprint.</seg>
+      </tuv>
+      <tuv xml:lang="ja" changeid="hiro" changedate="20201212T032636Z" creationid="hiro" creationdate="20201212T032636Z">
+        <seg>スプリントゴールはスプリントの唯⼀の⽬的である。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-US">
+        <seg>The Sprint Goal must be finalized prior to the end of Sprint Planning.</seg>
+      </tuv>
+      <tuv xml:lang="ja" changeid="hiro" changedate="20201212T025108Z" creationid="hiro" creationdate="20201212T025108Z">
+        <seg>スプリントゴールは、スプリントプランニングの終了までに確定する必要がある。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-US">
+        <seg>The Sprint Goal, the Product Backlog items selected for the Sprint, plus the plan for delivering them are together referred to as the Sprint Backlog.</seg>
+      </tuv>
+      <tuv xml:lang="ja" changeid="hiro" changedate="20201212T025431Z" creationid="hiro" creationdate="20201212T025431Z">
+        <seg>スプリントゴール、スプリント向けに選択したプロダクトバックログアイテム、およびそれらを提供するための計画をまとめてスプリントバックログと呼ぶ。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-US">
+        <seg>The Sprint Retrospective concludes the Sprint.</seg>
+      </tuv>
+      <tuv xml:lang="ja" changeid="hiro" changedate="20201212T030239Z" creationid="hiro" creationdate="20201212T030239Z">
+        <seg>スプリントレトロスペクティブをもってスプリントは終了する。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-US">
+        <seg>The Sprint Review is a working session and the Scrum Team should avoid limiting it to a presentation.</seg>
+      </tuv>
+      <tuv xml:lang="ja" changeid="hiro" changedate="20201212T025922Z" creationid="hiro" creationdate="20201212T025922Z">
+        <seg>スプリントレビューはワーキングセッションであり、スクラムチームはスプリントレビューをプレゼンテーションだけに限定しないようにする。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-US">
+        <seg>The Sprint Review is the second to last event of the Sprint and is timeboxed to a maximum of four hours for a one-month Sprint.</seg>
+      </tuv>
+      <tuv xml:lang="ja" changeid="hiro" changedate="20201212T025937Z" creationid="hiro" creationdate="20201212T025937Z">
+        <seg>スプリントレビューは、スプリントの最後から 2 番⽬のイベントであり、スプリントが 1 か⽉の場合、タイムボックスは最⼤ 4 時間である。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-US">
+        <seg>The Sprint Review should never be considered a gate to releasing value.</seg>
+      </tuv>
+      <tuv xml:lang="ja" changeid="hiro" changedate="20201212T033032Z" creationid="hiro" creationdate="20201212T033032Z">
+        <seg>スプリントレビューのことを価値をリリースするための関⾨と⾒なすべきではない。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-US">
+        <seg>The Sprint is a container for all other events.</seg>
+      </tuv>
+      <tuv xml:lang="ja" changeid="hiro" changedate="20201212T023734Z" creationid="hiro" creationdate="20201212T023734Z">
+        <seg>スプリントは他のすべてのイベントの⼊れ物である。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-US">
+        <seg>The adjustment must be made as soon as possible to minimize further deviation.</seg>
+      </tuv>
+      <tuv xml:lang="ja" changeid="hiro" changedate="20201211T210251Z" creationid="hiro" creationdate="20201211T210251Z">
+        <seg>それ以上の逸脱を最⼩限に抑えるため、できるだけ早く調整しなければならない。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-US">
+        <seg>The complete history of Scrum is described elsewhere.</seg>
+      </tuv>
+      <tuv xml:lang="ja" changeid="hiro" changedate="20201212T033639Z" creationid="hiro" creationdate="20201212T033639Z">
+        <seg>スクラムの詳細な歴史については、別のところで説明されている。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-US">
+        <seg>The decisions that are made, the steps taken, and the way Scrum is used should reinforce these values, not diminish or undermine them.</seg>
+      </tuv>
+      <tuv xml:lang="ja" changeid="hiro" changedate="20201211T210646Z" creationid="hiro" creationdate="20201211T210646Z">
+        <seg>下される意思決定、実⾏される⼿順、スクラムの使⽤⽅法は、これらの価値基準を減少や弱体化させるものではなく、強化させるものでなければならない。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-US">
+        <seg>The emergent process and work must be visible to those performing the work as well as those receiving the work.</seg>
+      </tuv>
+      <tuv xml:lang="ja" changeid="hiro" changedate="20201211T205849Z" creationid="hiro" creationdate="20201211T205849Z">
+        <seg>創発的なプロセスや作業は、作業を実⾏する⼈とその作業を受け取る⼈に⾒える必要がある。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-US">
+        <seg>The entire Scrum Team is accountable for creating a valuable, useful Increment every Sprint.</seg>
+      </tuv>
+      <tuv xml:lang="ja" changeid="hiro" changedate="20201211T212555Z" creationid="hiro" creationdate="20201211T212555Z">
+        <seg>スクラムチーム全体が、スプリントごとに価値のある有⽤なインクリメントを作成する責任を持つ。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-US">
+        <seg>The fundamental unit of Scrum is a small team of people, a Scrum Team.</seg>
+      </tuv>
+      <tuv xml:lang="ja" changeid="hiro" changedate="20201211T212052Z" creationid="hiro" creationdate="20201211T212052Z">
+        <seg>スクラムの基本単位は、スクラムチームという⼩さなチームである。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-US">
+        <seg>The moment a Product Backlog item meets the Definition of Done, an Increment is born.</seg>
+      </tuv>
+      <tuv xml:lang="ja" changeid="hiro" changedate="20201212T033117Z" creationid="hiro" creationdate="20201212T033117Z">
+        <seg>プロダクトバックログアイテムが完成の定義を満たしたときにインクリメントが誕⽣する。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-US">
+        <seg>The most impactful improvements are addressed as soon as possible.</seg>
+      </tuv>
+      <tuv xml:lang="ja" changeid="hiro" changedate="20201212T030209Z" creationid="hiro" creationdate="20201212T030209Z">
+        <seg>最も影響の⼤きな改善は、できるだけ早く対処する。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-US">
+        <seg>The purpose of the Daily Scrum is to inspect progress toward the Sprint Goal and adapt the Sprint Backlog as necessary, adjusting the upcoming planned work.</seg>
+      </tuv>
+      <tuv xml:lang="ja" changeid="hiro" changedate="20201212T025516Z" creationid="hiro" creationdate="20201212T025516Z">
+        <seg>デイリースクラムの⽬的は、計画された今後の作業を調整しながら、スプリントゴールに対する進捗を検査し、必要に応じてスプリントバックログを適応させることである。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-US">
+        <seg>The purpose of the Sprint Retrospective is to plan ways to increase quality and effectiveness.</seg>
+      </tuv>
+      <tuv xml:lang="ja" changeid="hiro" changedate="20201212T030014Z" creationid="hiro" creationdate="20201212T030014Z">
+        <seg>スプリントレトロスペクティブの⽬的は、品質と効果を⾼める⽅法を計画することである。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-US">
+        <seg>The purpose of the Sprint Review is to inspect the outcome of the Sprint and determine future adaptations.</seg>
+      </tuv>
+      <tuv xml:lang="ja" changeid="hiro" changedate="20201212T025800Z" creationid="hiro" creationdate="20201212T025800Z">
+        <seg>スプリントレビューの⽬的は、スプリントの成果を検査し、今後の適応を決定することである。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-US">
+        <seg>The rest of the Product Backlog emerges to define “what” will fulfill the Product Goal.</seg>
+      </tuv>
+      <tuv xml:lang="ja" changeid="hiro" changedate="20201212T032352Z" creationid="hiro" creationdate="20201212T032352Z">
+        <seg>プロダクトバックログの残りの部分は、プロダクトゴールを達成する「何か（what）」を定義するものである。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-US">
+        <seg>The specific skills needed by the Developers are often broad and will vary with the domain of work.</seg>
+      </tuv>
+      <tuv xml:lang="ja" changeid="hiro" changedate="20201211T212707Z" creationid="hiro" creationdate="20201211T212707Z">
+        <seg>開発者が必要とする特定のスキルは、幅広く、作業の領域によって異なる。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-US">
+        <seg>The sum of the Increments is presented at the Sprint Review thus supporting empiricism.</seg>
+      </tuv>
+      <tuv xml:lang="ja" changeid="hiro" changedate="20201212T033009Z" creationid="hiro" creationdate="20201212T033009Z">
+        <seg>インクリメントをまとめたものをスプリントレビューで提⽰する。それによって、経験主義がサポートされる。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-US">
+        <seg>The whole Scrum Team then collaborates to define a Sprint Goal that communicates why the Sprint is valuable to stakeholders.</seg>
+      </tuv>
+      <tuv xml:lang="ja" changeid="hiro" changedate="20201212T025052Z" creationid="hiro" creationdate="20201212T025052Z">
+        <seg>次に、スクラムチーム全体が協⼒して、そのスプリントになぜ価値があるかをステークホルダーに伝えるスプリントゴールを定義する。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-US">
+        <seg>Their description is beyond the purpose of the Scrum Guide because they are context sensitive and differ widely between Scrum uses.</seg>
+      </tuv>
+      <tuv xml:lang="ja" changeid="hiro" changedate="20201211T204708Z" creationid="hiro" creationdate="20201211T204708Z">
+        <seg>そうしたものについては、スクラムガイドの⽬的の範囲外である。これらは状況に依存しており、スクラムを利⽤する状況によって⼤きく異なるからだ。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-US">
+        <seg>Their primary focus is on the work of the Sprint to make the best possible progress toward these goals.</seg>
+      </tuv>
+      <tuv xml:lang="ja" changeid="hiro" changedate="20201211T210513Z" creationid="hiro" creationdate="20201211T210513Z">
+        <seg>スクラムチームは、ゴールに向けて可能な限り進捗できるように、スプリントの作業に集中する。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-US">
+        <seg>Therefore, they should share the same Product Goal, Product Backlog, and Product Owner.</seg>
+      </tuv>
+      <tuv xml:lang="ja" changeid="hiro" changedate="20201211T212431Z" creationid="hiro" creationdate="20201211T212431Z">
+        <seg>したがって、同じプロダクトゴール、プロダクトバックログ、およびプロダクトオーナーを共有する必要がある。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-US">
+        <seg>These commitments exist to reinforce empiricism and the Scrum values for the Scrum Team and their stakeholders.</seg>
+      </tuv>
+      <tuv xml:lang="ja" changeid="hiro" changedate="20201212T030516Z" creationid="hiro" creationdate="20201212T030516Z">
+        <seg>これらの確約は、スクラムチームとステークホルダーの経験主義とスクラムの価値基準を強化するために存在する。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-US">
+        <seg>These decisions are visible in the content and ordering of the Product Backlog, and through the inspectable Increment at the Sprint Review.</seg>
+      </tuv>
+      <tuv xml:lang="ja" changeid="hiro" changedate="20201211T213140Z" creationid="hiro" creationdate="20201211T213140Z">
+        <seg>これらの決定は、プロダクトバックログの内容や並び順、およびスプリントレビューでの検査可能なインクリメントによって⾒える化される。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-US">
+        <seg>These events are specifically designed to enable the transparency required.</seg>
+      </tuv>
+      <tuv xml:lang="ja" changeid="hiro" changedate="20201212T023815Z" creationid="hiro" creationdate="20201212T023803Z">
+        <seg>これらのイベントは必要な透明性を実現するために明確に設計されている。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-US">
+        <seg>These events work because they implement the empirical Scrum pillars of transparency, inspection, and adaptation.</seg>
+      </tuv>
+      <tuv xml:lang="ja" changeid="hiro" changedate="20201211T205812Z" creationid="hiro" creationdate="20201211T205812Z">
+        <seg>これらのイベントが機能するのは、経験主義のスクラムの三本柱「透明性」「検査」「適応」を実現しているからである。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-US">
+        <seg>These may increase productivity, value, creativity, and satisfaction with the results.</seg>
+      </tuv>
+      <tuv xml:lang="ja" changeid="hiro" changedate="20201212T033626Z" creationid="hiro" creationdate="20201212T033626Z">
+        <seg>これらは、⽣産性・価値・創造性・結果に対する満⾜度を⾼める可能性がある。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-US">
+        <seg>These values give direction to the Scrum Team with regard to their work, actions, and behavior.</seg>
+      </tuv>
+      <tuv xml:lang="ja" changeid="hiro" changedate="20201211T210625Z" creationid="hiro" creationdate="20201211T210625Z">
+        <seg>これらの価値基準は、スクラムチームの作業・⾏動・振る舞いの⽅向性を⽰している。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-US">
+        <seg>They are also self-managing, meaning they internally decide who does what, when, and how.</seg>
+      </tuv>
+      <tuv xml:lang="ja" changeid="hiro" changedate="20201211T212302Z" creationid="hiro" creationdate="20201211T212302Z">
+        <seg>また、⾃⼰管理型であり、誰が何を、いつ、どのように⾏うかをスクラムチーム内で決定する。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-US">
+        <seg>They are designed to maximize transparency of key information.</seg>
+      </tuv>
+      <tuv xml:lang="ja" changeid="hiro" changedate="20201212T030340Z" creationid="hiro" creationdate="20201212T030340Z">
+        <seg>これらは重要な情報の透明性を最⼤化できるように設計されている。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-US">
+        <seg>They are fixed length events of one month or less to create consistency.</seg>
+      </tuv>
+      <tuv xml:lang="ja" changeid="hiro" changedate="20201212T023957Z" creationid="hiro" creationdate="20201212T023957Z">
+        <seg>⼀貫性を保つため、スプリントは 1 か⽉以内の決まった⻑さとする。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-US">
+        <seg>They are structured and empowered by the organization to manage their own work.</seg>
+      </tuv>
+      <tuv xml:lang="ja" changeid="hiro" changedate="20201211T212518Z" creationid="hiro" creationdate="20201211T212518Z">
+        <seg>スクラムチームは、⾃分たちで作業を管理できるように組織によって構成され、その権限が与えられている。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-US">
+        <seg>They do this by enabling the Scrum Team to improve its practices, within the Scrum framework.</seg>
+      </tuv>
+      <tuv xml:lang="ja" changeid="hiro" changedate="20201212T023239Z" creationid="hiro" creationdate="20201212T023239Z">
+        <seg>スクラムマスターは、スクラムチームがスクラムフレームワーク内でプラクティスを改善できるようにすることで、その責任を果たす。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-US">
+        <seg>They do this by helping everyone understand Scrum theory and practice, both within the Scrum Team and the organization.</seg>
+      </tuv>
+      <tuv xml:lang="ja" changeid="hiro" changedate="20201212T023201Z" creationid="hiro" creationdate="20201212T023201Z">
+        <seg>スクラムマスターは、スクラムチームと組織において、スクラムの理論とプラクティスを全員に理解してもらえるよう⽀援することで、その責任を果たす。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-US">
+        <seg>They may even be added to the Sprint Backlog for the next Sprint.</seg>
+      </tuv>
+      <tuv xml:lang="ja" changeid="hiro" changedate="20201212T030227Z" creationid="hiro" creationdate="20201212T030227Z">
+        <seg>次のスプリントのスプリントバックログに追加することもできる。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-US">
+        <seg>They must fulfill (or abandon) one objective before taking on the next.</seg>
+      </tuv>
+      <tuv xml:lang="ja" changeid="hiro" changedate="20201212T032457Z" creationid="hiro" creationdate="20201212T032457Z">
+        <seg>次の⽬標に移る前に、スクラムチームはひとつの⽬標を達成（または放棄）しなければならない。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-US">
+        <seg>They often meet throughout the day for more detailed discussions about adapting or re-planning the rest of the Sprint’s work.</seg>
+      </tuv>
+      <tuv xml:lang="ja" changeid="hiro" changedate="20201212T025742Z" creationid="hiro" creationdate="20201212T025742Z">
+        <seg>スプリントの残りの作業を適応または再計画することについて、より詳細な議論をするために、開発者は⼀⽇を通じて頻繁に話し合う。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-US">
+        <seg>They usually acquire this degree of transparency after refining activities.</seg>
+      </tuv>
+      <tuv xml:lang="ja" changeid="hiro" changedate="20201212T032149Z" creationid="hiro" creationdate="20201212T032149Z">
+        <seg>スクラムチームは通常、リファインメントの活動を通じて、選択に必要な透明性を獲得する。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-US">
+        <seg>This creates focus and improves self-management.</seg>
+      </tuv>
+      <tuv xml:lang="ja" changeid="hiro" changedate="20201212T025654Z" creationid="hiro" creationdate="20201212T025654Z">
+        <seg>これは集中を⽣み出し、⾃⼰管理を促進する。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-US">
+        <seg>This is an ongoing activity to add details, such as a description, order, and size.</seg>
+      </tuv>
+      <tuv xml:lang="ja" changeid="hiro" changedate="20201212T032215Z" creationid="hiro" creationdate="20201212T032215Z">
+        <seg>これは、説明・並び順・サイズなどの詳細を追加するための継続的な活動である。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-US">
+        <seg>This is often done by decomposing Product Backlog items into smaller work items of one day or less.</seg>
+      </tuv>
+      <tuv xml:lang="ja" changeid="hiro" changedate="20201212T025342Z" creationid="hiro" creationdate="20201212T025342Z">
+        <seg>これは多くの場合、プロダクトバックログアイテムを 1 ⽇以内の⼩さな作業アイテムに分解することによって⾏われる。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-US">
+        <seg>This resulting plan is created by the collaborative work of the entire Scrum Team.</seg>
+      </tuv>
+      <tuv xml:lang="ja" changeid="hiro" changedate="20201212T024915Z" creationid="hiro" creationdate="20201212T024915Z">
+        <seg>結果としてできる計画は、スクラムチーム全体の共同作業によって作成される。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-US">
+        <seg>Those wanting to change the Product Backlog can do so by trying to convince the Product Owner.</seg>
+      </tuv>
+      <tuv xml:lang="ja" changeid="hiro" changedate="20201211T213224Z" creationid="hiro" creationdate="20201211T213224Z">
+        <seg>ステークホルダーがプロダクトバックログを変更したいときは、プロダクトオーナーを説得する。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-US">
+        <seg>Through discussion with the Product Owner, the Developers select items from the Product Backlog to include in the current Sprint.</seg>
+      </tuv>
+      <tuv xml:lang="ja" changeid="hiro" changedate="20201212T025140Z" creationid="hiro" creationdate="20201212T025140Z">
+        <seg>開発者は、プロダクトオーナーとの話し合いを通じて、プロダクトバックログからアイテムを選択し、今回のスプリントに含める。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-US">
+        <seg>Thus, everyone inspecting them has the same basis for adaptation.</seg>
+      </tuv>
+      <tuv xml:lang="ja" changeid="hiro" changedate="20201212T030403Z" creationid="hiro" creationdate="20201212T030403Z">
+        <seg>作成物を検査する⼈が、適応するときと同じ基準を持っている。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-US">
+        <seg>To help with inspection, Scrum provides cadence in the form of its five events.</seg>
+      </tuv>
+      <tuv xml:lang="ja" changeid="hiro" changedate="20201211T210107Z" creationid="hiro" creationdate="20201211T210107Z">
+        <seg>スクラムでは、検査を⽀援するために、5 つのイベントでリズムを提供している。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-US">
+        <seg>To honor the first places where it was tried and proven, we recognize Individual Inc., Newspage, Fidelity Investments, and IDX (now GE Medical).</seg>
+      </tuv>
+      <tuv xml:lang="ja" changeid="hiro" changedate="20201212T033655Z" creationid="hiro" creationdate="20201212T033655Z">
+        <seg>初期の試⾏錯誤および証明の場である Individual, Inc.、Newspage、Fidelity Investments、IDX（現 GE Medical）の各社に感謝したい。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-US">
+        <seg>To reduce complexity, it is held at the same time and place every working day of the Sprint.</seg>
+      </tuv>
+      <tuv xml:lang="ja" changeid="hiro" changedate="20201212T025541Z" creationid="hiro" creationdate="20201212T025541Z">
+        <seg>複雑さを低減するために、スプリント期間中は毎⽇、同じ時間・場所で開催する。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-US">
+        <seg>Together, we stand behind it.</seg>
+      </tuv>
+      <tuv xml:lang="ja" changeid="hiro" changedate="20201211T203145Z" creationid="hiro" creationdate="20201211T203145Z">
+        <seg>我々は共にスクラムガイドを⽀援している。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-US">
+        <seg>Topic One: Why is this Sprint valuable?</seg>
+      </tuv>
+      <tuv xml:lang="ja" changeid="hiro" changedate="20201212T025019Z" creationid="hiro" creationdate="20201212T025019Z">
+        <seg>トピック 1：このスプリントはなぜ価値があるのか？</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-US">
+        <seg>Topic Three: How will the chosen work get done?</seg>
+      </tuv>
+      <tuv xml:lang="ja" changeid="hiro" changedate="20201212T025308Z" creationid="hiro" creationdate="20201212T025308Z">
+        <seg>トピック 3：選択した作業をどのように成し遂げるのか？</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-US">
+        <seg>Topic Two: What can be Done this Sprint?</seg>
+      </tuv>
+      <tuv xml:lang="ja" changeid="hiro" changedate="20201212T025121Z" creationid="hiro" creationdate="20201212T025121Z">
+        <seg>トピック 2：このスプリントで何ができるのか？</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-US">
+        <seg>Transparency</seg>
+      </tuv>
+      <tuv xml:lang="ja" changeid="hiro" changedate="20201211T202403Z" creationid="hiro" creationdate="20201211T202403Z">
+        <seg>透明性</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-US">
+        <seg>Transparency enables inspection.</seg>
+      </tuv>
+      <tuv xml:lang="ja" changeid="hiro" changedate="20201211T205941Z" creationid="hiro" creationdate="20201211T205941Z">
+        <seg>透明性によって検査が可能になる。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-US">
+        <seg>Try it as is and determine if its philosophy, theory, and structure help to achieve goals and create value.</seg>
+      </tuv>
+      <tuv xml:lang="ja" changeid="hiro" changedate="20201211T205136Z" creationid="hiro" creationdate="20201211T205136Z">
+        <seg>まずはそのままの状態で試してほしい。そして、スクラムの哲学、理論、構造が、ゴールを達成し、価値を⽣み出すかどうかを判断してほしい。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-US">
+        <seg>Various practices exist to forecast progress, like burn-downs, burn-ups, or cumulative flows.</seg>
+      </tuv>
+      <tuv xml:lang="ja" changeid="hiro" changedate="20201212T024325Z" creationid="hiro" creationdate="20201212T024325Z">
+        <seg>進捗の⾒通しを⽴てるために、バーンダウン、バーンアップ、累積フローなど、さまざまなプラクティスが存在する。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-US">
+        <seg>Various processes, techniques and methods can be employed within the framework.</seg>
+      </tuv>
+      <tuv xml:lang="ja" changeid="hiro" changedate="20201211T205313Z" creationid="hiro" creationdate="20201211T205313Z">
+        <seg>スクラムフレームワークの中で、さまざまなプロセス、技法、⼿法を使⽤できる。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-US">
+        <seg>We are humbled to see Scrum being adopted in many domains holding essentially complex work, beyond software product development where Scrum has its roots.</seg>
+      </tuv>
+      <tuv xml:lang="ja" changeid="hiro" changedate="20201211T204427Z" creationid="hiro" creationdate="20201211T204427Z">
+        <seg>スクラムが誕⽣したソフトウェアプロダクト開発の領域を超えて、本質的に複雑な作業を必要とするさまざまなドメインでスクラムが採⽤されている。そうした状況を⾒ると、我々も光栄である。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-US">
+        <seg>We developed Scrum in the early 1990s.</seg>
+      </tuv>
+      <tuv xml:lang="ja" changeid="hiro" changedate="20201211T203005Z" creationid="hiro" creationdate="20201211T203005Z">
+        <seg>我々は 1990 年代初頭にスクラムを開発した。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-US">
+        <seg>We follow the growing use of Scrum within an ever-growing complex world.</seg>
+      </tuv>
+      <tuv xml:lang="ja" changeid="hiro" changedate="20201211T204144Z" creationid="hiro" creationdate="20201211T204144Z">
+        <seg>成⻑を続ける複雑な世界において、スクラムの利⽤は増加しており、我々はそれを⾒守っている。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-US">
+        <seg>We have evolved the Guide since then through small, functional updates.</seg>
+      </tuv>
+      <tuv xml:lang="ja" changeid="hiro" changedate="20201211T203127Z" creationid="hiro" creationdate="20201211T203127Z">
+        <seg>それ以来、機能的に⼩さな更新を加えながらスクラムガイドを進化させてきた。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-US">
+        <seg>We use the word “developers” in Scrum not to exclude, but to simplify.</seg>
+      </tuv>
+      <tuv xml:lang="ja" changeid="hiro" changedate="20201211T204530Z" creationid="hiro" creationdate="20201211T204530Z">
+        <seg>スクラムでは「開発者」という⾔葉を使っているが、開発者以外を排除しているのではなく、単純化のために使⽤しているだけである。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-US">
+        <seg>We wrote the first version of the Scrum Guide in 2010 to help people worldwide understand Scrum.</seg>
+      </tuv>
+      <tuv xml:lang="ja" changeid="hiro" changedate="20201211T203055Z" creationid="hiro" creationdate="20201211T203055Z">
+        <seg>世界中の⼈たちがスクラムを理解できるように、スクラムガイドの最初のバージョンを 2010 年に執筆した。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-US">
+        <seg>When a Sprint’s horizon is too long the Sprint Goal may become invalid, complexity may rise, and risk may increase.</seg>
+      </tuv>
+      <tuv xml:lang="ja" changeid="hiro" changedate="20201212T024225Z" creationid="hiro" creationdate="20201212T024225Z">
+        <seg>スプリントの期間が⻑すぎると、スプリントゴールが役に⽴たなくなり、複雑さが増し、リスクが⾼まる可能性がある。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-US">
+        <seg>When these values are embodied by the Scrum Team and the people they work with, the empirical Scrum pillars of transparency, inspection, and adaptation come to life building trust.</seg>
+      </tuv>
+      <tuv xml:lang="ja" changeid="hiro" changedate="20201211T210734Z" creationid="hiro" creationdate="20201211T210734Z">
+        <seg>これらの価値基準がスクラムチームや⼀緒に働く⼈たちによって具現化されるとき、経験主義のスクラムの三本柱「透明性」「検査」「適応」に息が吹き込まれ、信頼が構築される。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-US">
+        <seg>While implementing only parts of Scrum is possible, the result is not Scrum.</seg>
+      </tuv>
+      <tuv xml:lang="ja" changeid="hiro" changedate="20201211T211922Z" creationid="hiro" creationdate="20201211T211922Z">
+        <seg>スクラムの⼀部だけを導⼊することも可能だが、それはスクラムとは⾔えない。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-US">
+        <seg>While proven useful, these do not replace the importance of empiricism.</seg>
+      </tuv>
+      <tuv xml:lang="ja" changeid="hiro" changedate="20201212T024346Z" creationid="hiro" creationdate="20201212T024346Z">
+        <seg>これらの有⽤性は証明されているが、経験主義の重要性を置き換えるものではない。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-US">
+        <seg>With Scrum, important decisions are based on the perceived state of its three formal artifacts.</seg>
+      </tuv>
+      <tuv xml:lang="ja" changeid="hiro" changedate="20201211T205908Z" creationid="hiro" creationdate="20201211T205908Z">
+        <seg>スクラムにおける重要な意思決定は、3 つの正式な作成物を認知する状態に基づいている。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-US">
+        <seg>Within a Scrum Team, there are no sub-teams or hierarchies.</seg>
+      </tuv>
+      <tuv xml:lang="ja" changeid="hiro" changedate="20201211T212132Z" creationid="hiro" creationdate="20201211T212132Z">
+        <seg>スクラムチーム内には、サブチームや階層は存在しない。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-US">
+        <seg>Work cannot be considered part of an Increment unless it meets the Definition of Done.</seg>
+      </tuv>
+      <tuv xml:lang="ja" changeid="hiro" changedate="20201212T033044Z" creationid="hiro" creationdate="20201212T033044Z">
+        <seg>完成の定義を満たさない限り、作業をインクリメントの⼀部と⾒なすことはできない。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-US">
+        <seg>Working in Sprints at a sustainable pace improves the Scrum Team’s focus and consistency.</seg>
+      </tuv>
+      <tuv xml:lang="ja" changeid="hiro" changedate="20201211T212537Z" creationid="hiro" creationdate="20201211T212537Z">
+        <seg>持続可能なペースでスプリントの作業を⾏うことにより、スクラムチームの集中と⼀貫性が向上する。</seg>
+      </tuv>
+    </tu>
+<!-- Alternative translations -->
+  </body>
+</tmx>
